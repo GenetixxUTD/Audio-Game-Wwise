@@ -66,8 +66,22 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f4b671e4529d304798f1985917140ce5
     GuidInternal: 
-    m_lastTime: -8584911798174775808
-    List: []
+    m_lastTime: -8584887994534775808
+    List:
+    - name: Main
+      guid: fdf66c1abf433d4ab57deaebc3e11f14
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: f4b671e4529d304798f1985917140ce5
+      - ElementName: Main
+        ObjectType: 7
+        guid: fdf66c1abf433d4ab57deaebc3e11f14
+      Path: SoundBanks\Default Work Unit\Main
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -80,8 +94,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 414441dba3e52d46949d8953efa62f98
     GuidInternal: 
-    m_lastTime: -8584911798174775808
-    List: []
+    m_lastTime: -8584887994534775808
+    List:
+    - name: Play_PlayerPistolShot
+      guid: 4b9f0db053fdf44d8dc094ef6e6d78b5
+      id: 3923112352
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 414441dba3e52d46949d8953efa62f98
+      - ElementName: Play_PlayerPistolShot
+        ObjectType: 3
+        guid: 4b9f0db053fdf44d8dc094ef6e6d78b5
+      Path: Events\Default Work Unit\Play_PlayerPistolShot
+      maxAttenuation: 0
+      maxDuration: 2.4678333
+      minDuration: 1.848786
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -139,7 +170,7 @@ MonoBehaviour:
     m_lastTime: -8584911798174775808
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 05000000060000000a0000000b000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

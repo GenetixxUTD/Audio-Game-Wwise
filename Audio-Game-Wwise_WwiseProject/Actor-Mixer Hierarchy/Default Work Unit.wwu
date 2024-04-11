@@ -1,6 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1B55DE8B-2CE8-4A18-ABE3-645A666F02C9}" SchemaVersion="110">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{1B55DE8B-2CE8-4A18-ABE3-645A666F02C9}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{1B55DE8B-2CE8-4A18-ABE3-645A666F02C9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="ImportedAudio" ID="{B1448049-A2BE-430F-9BE7-47B09817317E}" ShortID="859141449">
+					<ChildrenList>
+						<Sound Name="RAWcharged-laser-7125-pixabay" ID="{FA3D8BB5-FD18-4377-9485-34D95998E56B}" ShortID="1000546597">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21D48565-66FF-4FF2-AC6C-F150C5F4865A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E66EE735-4F06-460F-A689-FE8D7ECA3724}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="RAWcharged-laser-7125-pixabay" ID="{85AF32DD-C695-413F-886D-F219E4705F68}">
+									<Language>SFX</Language>
+									<AudioFile>ImportedAudio\RAWcharged-laser-7125-pixabay.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="746300524"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="RAWcharged-laser-7125-pixabay" ID="{85AF32DD-C695-413F-886D-F219E4705F68}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="RAWlaser-gun-81720-pixabay" ID="{2990B40E-0CC8-4FDA-9A31-EBC5387C02D1}" ShortID="261872197">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{002A2636-E932-4EC5-8481-1FEACDE7E681}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="250"/>
+													<Property Name="Min" Type="Real64" Value="-250"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21D48565-66FF-4FF2-AC6C-F150C5F4865A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E66EE735-4F06-460F-A689-FE8D7ECA3724}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="RAWlaser-gun-81720-pixabay" ID="{B95A8BF8-1F22-40F9-870B-C00216A1A1A7}">
+									<Language>SFX</Language>
+									<AudioFile>ImportedAudio\RAWlaser-gun-81720-pixabay.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="943649303"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="RAWlaser-gun-81720-pixabay" ID="{B95A8BF8-1F22-40F9-870B-C00216A1A1A7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="RAWlaser-zap-90575-pixabay" ID="{D84F57B6-CF35-411A-BF3E-5E325184A637}" ShortID="76360881">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21D48565-66FF-4FF2-AC6C-F150C5F4865A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E66EE735-4F06-460F-A689-FE8D7ECA3724}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="RAWlaser-zap-90575-pixabay" ID="{E42AEDB8-93E6-4229-84A1-E8CC86A2563E}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.00164705882352956"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.08211764705882"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ImportedAudio\RAWlaser-zap-90575-pixabay.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="779577029"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="RAWlaser-zap-90575-pixabay" ID="{E42AEDB8-93E6-4229-84A1-E8CC86A2563E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

@@ -252,7 +252,8 @@ namespace Unity.FPS.Gameplay
 
 
             // Self Destruct
-            Destroy(this.gameObject);
+            //Destroy(this.gameObject);
+            this.gameObject.SetActive(false);
         }
 
         void OnDrawGizmosSelected()
