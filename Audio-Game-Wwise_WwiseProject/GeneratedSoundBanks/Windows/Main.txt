@@ -1,8 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
-	2302239150	Play_PlayShotgunShot			\Default Work Unit\Play_PlayShotgunShot	
+	139308969	Play_PlayerShotgunShot			\Default Work Unit\Play_PlayerShotgunShot	
 	3923112352	Play_PlayerPistolShot			\Default Work Unit\Play_PlayerPistolShot	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	779577029	RAWlaser-zap-90575-pixabay	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\ImportedAudio\RAWlaser-zap-90575-pixabay_FA423C9E.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\RAWlaser-zap-90575-pixabay		94652
+	779577029	RAWlaser-zap-90575-pixabay	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\ImportedAudio\RAWlaser-zap-90575-pixabay_095669D5.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\RAWlaser-zap-90575-pixabay		90840
 	943649303	RAWlaser-gun-81720-pixabay	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\ImportedAudio\RAWlaser-gun-81720-pixabay_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\RAWlaser-gun-81720-pixabay		205152
 
