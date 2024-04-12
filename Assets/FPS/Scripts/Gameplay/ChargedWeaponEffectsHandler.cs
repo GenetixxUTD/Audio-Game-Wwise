@@ -1,11 +1,15 @@
 ﻿using Unity.FPS.Game;
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+using static ak;
 
 namespace Unity.FPS.Gameplay
 {
     [RequireComponent(typeof(AudioSource))]
     public class ChargedWeaponEffectsHandler : MonoBehaviour
     {
+        soundengine. 
         [Header("Visual")] [Tooltip("Object that will be affected by charging scale & color changes")]
         public GameObject ChargingObject;
 
@@ -93,7 +97,7 @@ namespace Unity.FPS.Gameplay
         {
             if (ParticleInstance == null)
                 SpawnParticleSystem();
-
+            
             m_DiskOrbitParticle.gameObject.SetActive(m_WeaponController.IsWeaponActive);
             m_ChargeRatio = m_WeaponController.CurrentCharge;
 

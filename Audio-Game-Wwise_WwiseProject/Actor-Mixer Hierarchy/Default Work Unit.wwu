@@ -5,12 +5,18 @@
 			<ChildrenList>
 				<Folder Name="ImportedAudio" ID="{B1448049-A2BE-430F-9BE7-47B09817317E}" ShortID="859141449">
 					<ChildrenList>
-						<Sound Name="RAWcharged-laser-7125-pixabay" ID="{FA3D8BB5-FD18-4377-9485-34D95998E56B}" ShortID="1000546597">
+						<Sound Name="RAWcharged-laser-shot7125-pixabay" ID="{FA3D8BB5-FD18-4377-9485-34D95998E56B}" ShortID="1000546597">
 							<PropertyList>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
-											<Modifier Name="" ID="{3B91B157-96E7-4ADC-A4B9-D263EA8AB422}"/>
+											<Modifier Name="" ID="{3B91B157-96E7-4ADC-A4B9-D263EA8AB422}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="250"/>
+													<Property Name="Min" Type="Real64" Value="-250"/>
+												</PropertyList>
+											</Modifier>
 										</ModifierInfo>
 									</ModifierList>
 								</Property>
@@ -25,10 +31,15 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="RAWcharged-laser-7125-pixabay" ID="{85AF32DD-C695-413F-886D-F219E4705F68}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="4.5639868852459"/>
+										<Property Name="TrimEnd" Type="Real64" Value="8.16215081967211"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>ImportedAudio\RAWcharged-laser-7125-pixabay.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="746300524"/>
+										<MediaID ID="40068453"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
@@ -119,6 +130,42 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="RAWlaser-zap-90575-pixabay" ID="{E42AEDB8-93E6-4229-84A1-E8CC86A2563E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="RAWcharged-laser-charge7125-pixabay_01" ID="{A1A42425-1663-4E00-9706-9EA175A664F6}" ShortID="278644767">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{C07D1264-4F58-4F9D-AFBB-7EF8EA3469E1}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21D48565-66FF-4FF2-AC6C-F150C5F4865A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E66EE735-4F06-460F-A689-FE8D7ECA3724}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="RAWcharged-laser-7125-pixabay" ID="{31878DE7-7810-4C94-8E6D-C714864AB6A1}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="3.51294426229509"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>ImportedAudio\RAWcharged-laser-7125-pixabay.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="746300524"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="RAWcharged-laser-7125-pixabay" ID="{31878DE7-7810-4C94-8E6D-C714864AB6A1}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
