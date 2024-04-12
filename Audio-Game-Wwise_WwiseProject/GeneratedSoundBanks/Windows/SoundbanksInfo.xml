@@ -22,7 +22,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{27A9769B-0F38-27DE-E7CF-022B6553A832}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{CBEA8CBD-B71A-0944-52B3-1A9770309D60}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -32,16 +32,16 @@
 				</File>
 				<File Id="943649303" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ImportedAudio\RAWlaser-gun-81720-pixabay.wav</ShortName>
-					<CachePath>SFX/ImportedAudio/RAWlaser-gun-81720-pixabay_10C4C929.wem</CachePath>
+					<CachePath>SFX/ImportedAudio/RAWlaser-gun-81720-pixabay_0319FBB3.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3923112352" Name="Play_PlayerPistolShot" DurationType="OneShot" DurationMin="1.848786" DurationMax="2.4678333">
+				<Event Id="3923112352" Name="Play_PlayerPistolShot" DurationType="OneShot" DurationMin="1.8083754" DurationMax="2.4138916">
 					<MediaRefs>
 						<MediaRef Id="943649303"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="139308969" Name="Play_PlayerShotgunShot" DurationType="OneShot" DurationMin="0.9452556" DurationMax="0.9452556">
+				<Event Id="139308969" Name="Play_PlayerShotgunShot" DurationType="OneShot" DurationMin="0.81815326" DurationMax="1.0921036">
 					<MediaRefs>
 						<MediaRef Id="779577029"/>
 					</MediaRefs>
@@ -49,5 +49,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A4E5680A-A942-8E96-C599-4D8AD2B92565}</FileHash>
+	<FileHash>{D215C981-2E99-49F3-646B-B65152C74204}</FileHash>
 </SoundBanksInfo>
