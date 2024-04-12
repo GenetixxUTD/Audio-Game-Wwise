@@ -22,10 +22,14 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{C2C73F10-1126-A396-6C4B-44A76C06ABEC}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{8B88DBC6-67A9-423D-2F12-C8738892798D}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="779577029" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>ImportedAudio\RAWlaser-zap-90575-pixabay.wav</ShortName>
+					<CachePath>SFX/ImportedAudio/RAWlaser-zap-90575-pixabay_FA423C9E.wem</CachePath>
+				</File>
 				<File Id="943649303" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ImportedAudio\RAWlaser-gun-81720-pixabay.wav</ShortName>
 					<CachePath>SFX/ImportedAudio/RAWlaser-gun-81720-pixabay_10C4C929.wem</CachePath>
@@ -37,8 +41,13 @@
 						<MediaRef Id="943649303"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2302239150" Name="Play_PlayShotgunShot" DurationType="OneShot" DurationMin="0.85250264" DurationMax="1.1379545">
+					<MediaRefs>
+						<MediaRef Id="779577029"/>
+					</MediaRefs>
+				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C605D1D7-F44C-A9A0-76C1-B99B07C1C544}</FileHash>
+	<FileHash>{C5E8B4DC-91CF-5E8C-1A91-C71EB4C57D2B}</FileHash>
 </SoundBanksInfo>
