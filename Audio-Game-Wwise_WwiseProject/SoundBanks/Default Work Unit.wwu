@@ -5,6 +5,8 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{1A6CF6FD-43BF-4A3D-B57D-EAEBC3E11F14}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Play_PlayerLauncherCharge" ID="{DD0E42DE-64B7-4216-B653-875E9BC8D451}" WorkUnitID="{DB414441-E5A3-462D-949D-8953EFA62F98}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_PlayerLauncherShot" ID="{D3468846-C821-421E-82FB-ED26FAA457D4}" WorkUnitID="{DB414441-E5A3-462D-949D-8953EFA62F98}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_PlayerShotgunShot" ID="{AD28C1F0-1CC8-4BA8-BA24-F688856A2CD5}" WorkUnitID="{DB414441-E5A3-462D-949D-8953EFA62F98}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_PlayerPistolShot" ID="{B00D9F4B-FD53-4DF4-8DC0-94EF6E6D78B5}" WorkUnitID="{DB414441-E5A3-462D-949D-8953EFA62F98}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

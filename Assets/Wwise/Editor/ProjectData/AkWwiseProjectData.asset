@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f4b671e4529d304798f1985917140ce5
     GuidInternal: 
-    m_lastTime: -8584887170054775808
+    m_lastTime: -8584886740474775808
     List:
     - name: Main
       guid: fdf66c1abf433d4ab57deaebc3e11f14
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 414441dba3e52d46949d8953efa62f98
     GuidInternal: 
-    m_lastTime: -8584887143594775808
+    m_lastTime: -8584886736634775808
     List:
     - name: Play_PlayerLauncherCharge
       guid: de420eddb7641642b653875e9bc8d451
@@ -111,8 +111,8 @@ MonoBehaviour:
         guid: de420eddb7641642b653875e9bc8d451
       Path: Events\Default Work Unit\Play_PlayerLauncherCharge
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 3.5129442
+      minDuration: 3.5129442
     - name: Play_PlayerLauncherShot
       guid: 468846d321c81e4282fbed26faa457d4
       id: 3498406285
@@ -128,8 +128,8 @@ MonoBehaviour:
         guid: 468846d321c81e4282fbed26faa457d4
       Path: Events\Default Work Unit\Play_PlayerLauncherShot
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 4.1571484
+      minDuration: 3.1143425
     - name: Play_PlayerPistolShot
       guid: 4b9f0db053fdf44d8dc094ef6e6d78b5
       id: 3923112352

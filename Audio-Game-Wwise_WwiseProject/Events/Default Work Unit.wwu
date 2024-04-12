@@ -27,6 +27,17 @@
 				</Event>
 				<Event Name="Play_PlayerLauncherShot" ID="{D3468846-C821-421E-82FB-ED26FAA457D4}">
 					<ChildrenList>
+						<Action Name="" ID="{34086B8F-1EE2-4881-973B-1DAE1BA776E6}" ShortID="898997697">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RAWcharged-laser-charge7125-pixabay_01" ID="{A1A42425-1663-4E00-9706-9EA175A664F6}" WorkUnitID="{1B55DE8B-2CE8-4A18-ABE3-645A666F02C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{E1542E4E-3529-4F4F-B42C-78BDFF7F76C0}" ShortID="897462523">
 							<ReferenceList>
 								<Reference Name="Target">

@@ -13,6 +13,8 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_PLAYERLAUNCHERCHARGE = 125713821U;
+        static const AkUniqueID PLAY_PLAYERLAUNCHERSHOT = 3498406285U;
         static const AkUniqueID PLAY_PLAYERPISTOLSHOT = 3923112352U;
         static const AkUniqueID PLAY_PLAYERSHOTGUNSHOT = 139308969U;
     } // namespace EVENTS

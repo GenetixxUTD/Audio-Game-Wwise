@@ -2,14 +2,14 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using static ak;
+
 
 namespace Unity.FPS.Gameplay
 {
     [RequireComponent(typeof(AudioSource))]
     public class ChargedWeaponEffectsHandler : MonoBehaviour
     {
-        soundengine. 
+
         [Header("Visual")] [Tooltip("Object that will be affected by charging scale & color changes")]
         public GameObject ChargingObject;
 
@@ -106,6 +106,7 @@ namespace Unity.FPS.Gameplay
             {
                 SpinningFrame.transform.localRotation *= Quaternion.Euler(0,
                     SpinningSpeed.GetValueFromRatio(m_ChargeRatio) * Time.deltaTime, 0);
+
             }
 
             m_VelocityOverTimeModule.orbitalY = OrbitY.GetValueFromRatio(m_ChargeRatio);

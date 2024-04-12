@@ -318,7 +318,9 @@ namespace Unity.FPS.Game
                 case WeaponShootType.Charge:
                     if (inputHeld)
                     {
+                        
                         TryBeginCharge();
+
                     }
 
                     // Check if we released charge or if the weapon shoot autmatically when it's fully charged
@@ -356,6 +358,7 @@ namespace Unity.FPS.Game
                 && m_LastTimeShot + DelayBetweenShots < Time.time)
             {
                 UseAmmo(AmmoUsedOnStartCharge);
+                AkSoundEngine.PostEvent("Play_PlayerLauncherCharge", this.gameObject);
 
                 LastChargeTriggerTimestamp = Time.time;
                 IsCharging = true;

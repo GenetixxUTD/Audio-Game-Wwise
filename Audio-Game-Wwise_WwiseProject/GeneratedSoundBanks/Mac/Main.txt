@@ -1,8 +1,12 @@
 Event	ID	Name			Wwise Object Path	Notes
+	125713821	Play_PlayerLauncherCharge			\Default Work Unit\Play_PlayerLauncherCharge	
 	139308969	Play_PlayerShotgunShot			\Default Work Unit\Play_PlayerShotgunShot	
+	3498406285	Play_PlayerLauncherShot			\Default Work Unit\Play_PlayerLauncherShot	
 	3923112352	Play_PlayerPistolShot			\Default Work Unit\Play_PlayerPistolShot	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	779577029	RAWlaser-zap-90575-pixabay	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\ImportedAudio\RAWlaser-zap-90575-pixabay_095669D5.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\RAWlaser-zap-90575-pixabay		90840
-	943649303	RAWlaser-gun-81720-pixabay	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\ImportedAudio\RAWlaser-gun-81720-pixabay_0319FBB3.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\RAWlaser-gun-81720-pixabay		200668
+	40068453	RAWcharged-laser-shot7125-pixabay	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\ImportedAudio\RAWcharged-laser-7125-pixabay_5319FC00.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\RAWcharged-laser-shot7125-pixabay		345520
+	746300524	RAWcharged-laser-charge7125-pixabay_01	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\ImportedAudio\RAWcharged-laser-7125-pixabay_2EE17AF1.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\RAWcharged-laser-charge7125-pixabay_01		337340
+	779577029	RAWlaser-zap-90575-pixabay	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\ImportedAudio\RAWlaser-zap-90575-pixabay_CED32EB2.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\RAWlaser-zap-90575-pixabay		90840
+	943649303	RAWlaser-gun-81720-pixabay	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\ImportedAudio\RAWlaser-gun-81720-pixabay_CE194B45.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\RAWlaser-gun-81720-pixabay		200668
 
