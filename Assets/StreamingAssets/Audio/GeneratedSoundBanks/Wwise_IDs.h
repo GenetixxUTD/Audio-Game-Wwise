@@ -18,7 +18,7 @@ namespace AK
         static const AkUniqueID PLAY_PLAYERLAUNCHERSHOT = 3498406285U;
         static const AkUniqueID PLAY_PLAYERPISTOLSHOT = 3923112352U;
         static const AkUniqueID PLAY_PLAYERSHOTGUNSHOT = 139308969U;
-        static const AkUniqueID STOP_MACHINEMOVEMENT = 2280812912U;
+        static const AkUniqueID STOP_ROAMINGMACHINEEVENTS = 1738958647U;
     } // namespace EVENTS
 
     namespace BANKS

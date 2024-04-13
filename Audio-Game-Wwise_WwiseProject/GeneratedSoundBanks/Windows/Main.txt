@@ -1,7 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	125713821	Play_PlayerLauncherCharge			\Default Work Unit\Play_PlayerLauncherCharge	
 	139308969	Play_PlayerShotgunShot			\Default Work Unit\Play_PlayerShotgunShot	
-	2280812912	Stop_MachineMovement			\Default Work Unit\Stop_MachineMovement	
+	1738958647	Stop_RoamingMachineEvents			\Default Work Unit\Stop_RoamingMachineEvents	
 	3498406285	Play_PlayerLauncherShot			\Default Work Unit\Play_PlayerLauncherShot	
 	3566803906	Play_MachineMovement			\Default Work Unit\Play_MachineMovement	
 	3923112352	Play_PlayerPistolShot			\Default Work Unit\Play_PlayerPistolShot	

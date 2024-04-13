@@ -162,6 +162,11 @@ MonoBehaviour:
   PathReachingRangeColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
   AttackRangeColor: {r: 1, g: 0, b: 0, a: 1}
   DetectionRangeColor: {r: 0, g: 0, b: 1, a: 1}
+  shootEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 37035becaff7a2f498cd2840f1d5cfb7,
+      type: 2}
 --- !u!114 &4752156053906186385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -175,6 +180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Animator: {fileID: 320366457759794871}
+  playerReference: {fileID: 0}
   AttackStopDistanceRatio: 0.08
   RandomHitSparks:
   - {fileID: 9125706537325074547}

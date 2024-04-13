@@ -22,7 +22,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{6E300409-7943-34F0-40CD-398FEB9F85B7}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{19C4FF9B-75EF-F627-1BDA-ABD105BE5044}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -48,7 +48,7 @@
 				</File>
 			</Media>
 			<Events>
-				<Event Id="3566803906" Name="Play_MachineMovement" MaxAttenuation="50" DurationType="Infinite">
+				<Event Id="3566803906" Name="Play_MachineMovement" MaxAttenuation="75" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="967681174"/>
 					</MediaRefs>
@@ -58,24 +58,24 @@
 						<MediaRef Id="746300524"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3498406285" Name="Play_PlayerLauncherShot" DurationType="OneShot" DurationMin="3.1143425" DurationMax="4.1571484">
+				<Event Id="3498406285" Name="Play_PlayerLauncherShot" MaxAttenuation="100" DurationType="OneShot" DurationMin="3.1143425" DurationMax="4.1571484">
 					<MediaRefs>
 						<MediaRef Id="40068453"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3923112352" Name="Play_PlayerPistolShot" DurationType="OneShot" DurationMin="1.8083754" DurationMax="2.4138916">
+				<Event Id="3923112352" Name="Play_PlayerPistolShot" MaxAttenuation="100" DurationType="OneShot" DurationMin="1.8083754" DurationMax="2.4138916">
 					<MediaRefs>
 						<MediaRef Id="943649303"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="139308969" Name="Play_PlayerShotgunShot" DurationType="OneShot" DurationMin="0.81815326" DurationMax="1.0921036">
+				<Event Id="139308969" Name="Play_PlayerShotgunShot" MaxAttenuation="100" DurationType="OneShot" DurationMin="0.81815326" DurationMax="1.0921036">
 					<MediaRefs>
 						<MediaRef Id="779577029"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2280812912" Name="Stop_MachineMovement" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1738958647" Name="Stop_RoamingMachineEvents" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{68355C2A-A3DB-EBB0-F761-FE6F46088C36}</FileHash>
+	<FileHash>{71B37A8B-D1D1-C8D8-F031-9075FB9C1917}</FileHash>
 </SoundBanksInfo>

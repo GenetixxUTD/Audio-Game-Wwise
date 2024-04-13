@@ -69,7 +69,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Stop_MachineMovement" ID="{BEA170F2-6F75-4DC1-B52F-BF70490A7860}">
+				<Event Name="Stop_RoamingMachineEvents" ID="{BEA170F2-6F75-4DC1-B52F-BF70490A7860}">
 					<ChildrenList>
 						<Action Name="" ID="{C66EAA77-1D08-4F8C-B641-4BD0D6678D96}" ShortID="170215449">
 							<PropertyList>

@@ -71,10 +71,13 @@ namespace Unity.FPS.AI
             // Update animator speed parameter
             Animator.SetFloat(k_AnimMoveSpeedParameter, moveSpeed);
 
-            if (Vector3.Distance(m_EnemyController.getCurrentDestination(), gameObject.transform.position) > 1f && !playingEvent && Vector3.Distance(playerReference.position, this.gameObject.transform.position) < 50f)
+            if (Vector3.Distance(m_EnemyController.getCurrentDestination(), gameObject.transform.position) > 1f && Vector3.Distance(playerReference.position, this.gameObject.transform.position) < 75f)
             {
-                MovementEventAudio.Post(this.gameObject);
-                playingEvent = true;
+                if(!playingEvent)
+                {
+                    MovementEventAudio.Post(this.gameObject);
+                    playingEvent = true;
+                }
             }
             else
             {

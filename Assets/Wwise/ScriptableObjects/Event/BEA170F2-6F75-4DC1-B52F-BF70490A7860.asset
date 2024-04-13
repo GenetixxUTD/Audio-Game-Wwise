@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30e430e6247b9f945af1f684ae0988d1, type: 3}
   m_Name: BEA170F2-6F75-4DC1-B52F-BF70490A7860
   m_EditorClassIdentifier: 
-  objectName: Stop_MachineMovement
-  id: 2280812912
+  objectName: Stop_RoamingMachineEvents
+  id: 1738958647
   guid: BEA170F2-6F75-4DC1-B52F-BF70490A7860

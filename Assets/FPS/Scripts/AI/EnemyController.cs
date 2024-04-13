@@ -118,6 +118,8 @@ namespace Unity.FPS.AI
         WeaponController[] m_Weapons;
         NavigationModule m_NavigationModule;
 
+        public AK.Wwise.Event shootEvent;
+
         void Start()
         {
             m_EnemyManager = FindObjectOfType<EnemyManager>();
