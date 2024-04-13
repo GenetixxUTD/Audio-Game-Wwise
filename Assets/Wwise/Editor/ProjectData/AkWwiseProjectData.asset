@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f4b671e4529d304798f1985917140ce5
     GuidInternal: 
-    m_lastTime: -8584886740474775808
+    m_lastTime: -8584886237754775808
     List:
     - name: Main
       guid: fdf66c1abf433d4ab57deaebc3e11f14
@@ -94,8 +94,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 414441dba3e52d46949d8953efa62f98
     GuidInternal: 
-    m_lastTime: -8584886736634775808
+    m_lastTime: -8584886257934775808
     List:
+    - name: Play_MachineMovement
+      guid: 483370d0366a8d46b672c6a462d9b3cc
+      id: 3566803906
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 414441dba3e52d46949d8953efa62f98
+      - ElementName: Play_MachineMovement
+        ObjectType: 3
+        guid: 483370d0366a8d46b672c6a462d9b3cc
+      Path: Events\Default Work Unit\Play_MachineMovement
+      maxAttenuation: 50
+      maxDuration: -1
+      minDuration: -1
     - name: Play_PlayerLauncherCharge
       guid: de420eddb7641642b653875e9bc8d451
       id: 125713821
@@ -164,6 +181,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.0921036
       minDuration: 0.81815326
+    - name: Stop_MachineMovement
+      guid: f270a1be756fc14db52fbf70490a7860
+      id: 2280812912
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 414441dba3e52d46949d8953efa62f98
+      - ElementName: Stop_MachineMovement
+        ObjectType: 3
+        guid: f270a1be756fc14db52fbf70490a7860
+      Path: Events\Default Work Unit\Stop_MachineMovement
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -221,7 +255,7 @@ MonoBehaviour:
     m_lastTime: -8584911798174775808
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0100000005000000060000000a0000000b0000000c0000000d0000000e000000
+  ExpandedWaapiItemIds: 0100000005000000060000000a0000000b0000000c0000000d0000000e0000001000000011000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
