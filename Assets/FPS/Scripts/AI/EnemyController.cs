@@ -482,5 +482,10 @@ namespace Unity.FPS.AI
                 m_LastTimeWeaponSwapped = Mathf.NegativeInfinity;
             }
         }
+
+        public Vector3 getCurrentDestination()
+        {
+            return NavMeshAgent.destination;
+        }
     }
 }

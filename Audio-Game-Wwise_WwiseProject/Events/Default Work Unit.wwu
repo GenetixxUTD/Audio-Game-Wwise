@@ -58,6 +58,31 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_MachineMovement" ID="{D0703348-6A36-468D-B672-C6A462D9B3CC}">
+					<ChildrenList>
+						<Action Name="" ID="{EF23D775-1AEF-42FB-BF0B-E1B6EFF9752C}" ShortID="738655673">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="aircompressor_RAW" ID="{81D30AC7-6EE7-492C-926B-F89799B125AE}" WorkUnitID="{1B55DE8B-2CE8-4A18-ABE3-645A666F02C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MachineMovement" ID="{BEA170F2-6F75-4DC1-B52F-BF70490A7860}">
+					<ChildrenList>
+						<Action Name="" ID="{C66EAA77-1D08-4F8C-B641-4BD0D6678D96}" ShortID="170215449">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="aircompressor_RAW" ID="{81D30AC7-6EE7-492C-926B-F89799B125AE}" WorkUnitID="{1B55DE8B-2CE8-4A18-ABE3-645A666F02C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

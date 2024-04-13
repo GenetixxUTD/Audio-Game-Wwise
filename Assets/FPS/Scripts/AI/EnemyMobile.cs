@@ -15,6 +15,8 @@ namespace Unity.FPS.AI
 
         public Animator Animator;
 
+        public Transform playerReference;
+
         [Tooltip("Fraction of the enemy's attack range at which it will stop moving towards target while attacking")]
         [Range(0f, 1f)]
         public float AttackStopDistanceRatio = 0.5f;
@@ -31,6 +33,11 @@ namespace Unity.FPS.AI
         public AIState AiState { get; private set; }
         EnemyController m_EnemyController;
         AudioSource m_AudioSource;
+
+        public AK.Wwise.Event MovementEventAudio;
+        public AK.Wwise.Event MovementEventAudioStop;
+
+        private bool playingEvent;
 
         const string k_AnimMoveSpeedParameter = "MoveSpeed";
         const string k_AnimAttackParameter = "Attack";
@@ -63,6 +70,17 @@ namespace Unity.FPS.AI
 
             // Update animator speed parameter
             Animator.SetFloat(k_AnimMoveSpeedParameter, moveSpeed);
+
+            if (Vector3.Distance(m_EnemyController.getCurrentDestination(), gameObject.transform.position) > 1f && !playingEvent && Vector3.Distance(playerReference.position, this.gameObject.transform.position) < 50f)
+            {
+                MovementEventAudio.Post(this.gameObject);
+                playingEvent = true;
+            }
+            else
+            {
+                MovementEventAudioStop.Post(this.gameObject);
+                playingEvent = false;
+            }
 
         }
 
@@ -167,6 +185,12 @@ namespace Unity.FPS.AI
             }
 
             Animator.SetTrigger(k_AnimOnDamagedParameter);
+        }
+
+        private void OnDestroy()
+        {
+            MovementEventAudioStop.Post(this.gameObject);
+            playingEvent = false;
         }
     }
 }

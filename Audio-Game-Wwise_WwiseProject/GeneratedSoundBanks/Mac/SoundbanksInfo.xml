@@ -22,7 +22,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{E53279F3-9436-BF10-1676-758E4C41B55E}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{6E300409-7943-34F0-40CD-398FEB9F85B7}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -42,8 +42,17 @@
 					<ShortName>ImportedAudio\RAWlaser-gun-81720-pixabay.wav</ShortName>
 					<CachePath>SFX/ImportedAudio/RAWlaser-gun-81720-pixabay_CE194B45.wem</CachePath>
 				</File>
+				<File Id="967681174" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>aircompressor_RAW.WAV</ShortName>
+					<CachePath>SFX/aircompressor_RAW_C5579977.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
+				<Event Id="3566803906" Name="Play_MachineMovement" MaxAttenuation="50" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="967681174"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="125713821" Name="Play_PlayerLauncherCharge" DurationType="OneShot" DurationMin="3.5129442" DurationMax="3.5129442">
 					<MediaRefs>
 						<MediaRef Id="746300524"/>
@@ -64,8 +73,9 @@
 						<MediaRef Id="779577029"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2280812912" Name="Stop_MachineMovement" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8A766B54-4A56-6FEB-C876-2ADE7B3F44A5}</FileHash>
+	<FileHash>{68355C2A-A3DB-EBB0-F761-FE6F46088C36}</FileHash>
 </SoundBanksInfo>

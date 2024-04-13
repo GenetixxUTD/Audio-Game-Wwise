@@ -13,10 +13,12 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_MACHINEMOVEMENT = 3566803906U;
         static const AkUniqueID PLAY_PLAYERLAUNCHERCHARGE = 125713821U;
         static const AkUniqueID PLAY_PLAYERLAUNCHERSHOT = 3498406285U;
         static const AkUniqueID PLAY_PLAYERPISTOLSHOT = 3923112352U;
         static const AkUniqueID PLAY_PLAYERSHOTGUNSHOT = 139308969U;
+        static const AkUniqueID STOP_MACHINEMOVEMENT = 2280812912U;
     } // namespace EVENTS
 
     namespace BANKS
