@@ -9,6 +9,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1830303642	Play_PlayerFootstepsEvent			\Default Work Unit\Play_PlayerFootstepsEvent	
 	2100791062	Play_LevelAirAmienceEvent			\Default Work Unit\Play_LevelAirAmienceEvent	
 	2461339184	Play_LevelFireEvent			\Default Work Unit\Play_LevelFireEvent	
+	3263331757	Play_PlayerHealEvent			\Default Work Unit\Play_PlayerHealEvent	
 	3361080125	Stop_PlayerRocketEvent			\Default Work Unit\Stop_PlayerRocketEvent	
 	3498406285	Play_PlayerLauncherShot			\Default Work Unit\Play_PlayerLauncherShot	
 	3566803906	Play_MachineMovement			\Default Work Unit\Play_MachineMovement	
@@ -50,5 +51,6 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	943649303	RAWlaser-gun-81720-pixabay	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\ImportedAudio\RAWlaser-gun-81720-pixabay_CE194B45.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\RAWlaser-gun-81720-pixabay		200668
 	966336095	zapsplat_explosion_detonate_blast_designed_001_89753	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\zapsplat_explosion_detonate_blast_designed_001_89753_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\Turret Death\zapsplat_explosion_detonate_blast_designed_001_89753		1230324
 	967681174	aircompressor_RAW	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\aircompressor_RAW_C5579977.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment Recordings\aircompressor_RAW		1858144
+	1000115981	duct-tape-3-183995-floraphonic-pixabay	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\duct-tape-3-183995-floraphonic-pixabay_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\duct-tape-3-183995-floraphonic-pixabay		511584
 	1004968468	gas-burning-stove-loop-123665-pixapit	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\gas-burning-stove-loop-123665-pixapit_C0F13FD2.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\gas-burning-stove-loop-123665-pixapit		1275908
 

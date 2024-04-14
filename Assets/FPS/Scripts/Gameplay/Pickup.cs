@@ -1,4 +1,5 @@
-﻿using Unity.FPS.Game;
+﻿using System.Security.Cryptography.X509Certificates;
+using Unity.FPS.Game;
 using UnityEngine;
 
 namespace Unity.FPS.Gameplay
@@ -13,6 +14,8 @@ namespace Unity.FPS.Gameplay
         public float BobbingAmount = 1f;
 
         [Tooltip("Rotation angle per second")] public float RotatingSpeed = 360f;
+        
+        public AK.Wwise.Event pickupEvent; 
 
         [Tooltip("Sound played on pickup")] public AudioClip PickupSfx;
         [Tooltip("VFX spawned on pickup")] public GameObject PickupVfxPrefab;

@@ -33,7 +33,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{8029C029-5B06-6807-8BE0-E0C12C24F529}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{0F2886F8-C9F2-0CEA-496A-82ECCDFFABFB}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -133,6 +133,10 @@
 					<ShortName>aircompressor_RAW.WAV</ShortName>
 					<CachePath>SFX/aircompressor_RAW_C5579977.wem</CachePath>
 				</File>
+				<File Id="1000115981" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>duct-tape-3-183995-floraphonic-pixabay.wav</ShortName>
+					<CachePath>SFX/duct-tape-3-183995-floraphonic-pixabay_10C4C929.wem</CachePath>
+				</File>
 				<File Id="1004968468" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>gas-burning-stove-loop-123665-pixapit.wav</ShortName>
 					<CachePath>SFX/gas-burning-stove-loop-123665-pixapit_C0F13FD2.wem</CachePath>
@@ -189,6 +193,11 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="3263331757" Name="Play_PlayerHealEvent" DurationType="OneShot" DurationMin="2.664" DurationMax="2.664">
+					<MediaRefs>
+						<MediaRef Id="1000115981"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="125713821" Name="Play_PlayerLauncherCharge" DurationType="OneShot" DurationMin="3.5129442" DurationMax="3.5129442">
 					<MediaRefs>
 						<MediaRef Id="746300524"/>
@@ -242,5 +251,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D2D2D792-04BE-731C-2948-5C16190B03FB}</FileHash>
+	<FileHash>{AEF2C47C-BC3D-36CA-9658-95D47FBD86A8}</FileHash>
 </SoundBanksInfo>

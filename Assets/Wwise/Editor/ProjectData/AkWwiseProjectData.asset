@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f4b671e4529d304798f1985917140ce5
     GuidInternal: 
-    m_lastTime: -8584885363474775808
+    m_lastTime: -8584884701494775808
     List:
     - name: Main
       guid: fdf66c1abf433d4ab57deaebc3e11f14
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 414441dba3e52d46949d8953efa62f98
     GuidInternal: 
-    m_lastTime: -8584884837094775808
+    m_lastTime: -8584884701494775808
     List:
     - name: Play_LevelAirAmienceEvent
       guid: ef6ef48e76b60e4c9097e59adca2b27a
@@ -181,6 +181,40 @@ MonoBehaviour:
       maxAttenuation: 75
       maxDuration: -1
       minDuration: -1
+    - name: Play_PlayerFootstepsEvent
+      guid: 05dd5123a0b19e4ba9f3dbe0e51b2727
+      id: 1830303642
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 414441dba3e52d46949d8953efa62f98
+      - ElementName: Play_PlayerFootstepsEvent
+        ObjectType: 3
+        guid: 05dd5123a0b19e4ba9f3dbe0e51b2727
+      Path: Events\Default Work Unit\Play_PlayerFootstepsEvent
+      maxAttenuation: 0
+      maxDuration: 0.7254674
+      minDuration: 0.19882318
+    - name: Play_PlayerHealEvent
+      guid: fccd3587783b1f4e86f5e20a97af5337
+      id: 3263331757
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 414441dba3e52d46949d8953efa62f98
+      - ElementName: Play_PlayerHealEvent
+        ObjectType: 3
+        guid: fccd3587783b1f4e86f5e20a97af5337
+      Path: Events\Default Work Unit\Play_PlayerHealEvent
+      maxAttenuation: 0
+      maxDuration: 2.664
+      minDuration: 2.664
     - name: Play_PlayerLauncherCharge
       guid: de420eddb7641642b653875e9bc8d451
       id: 125713821
@@ -388,8 +422,58 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 6dc788a37b2b4a4db08a27292e8ed4a3
     GuidInternal: 
-    m_lastTime: -8584911798174775808
-    List: []
+    m_lastTime: -8584884701494775808
+    List:
+    - name: FootstepsSwitch
+      guid: 48a68982b1b07e4d88c884b17e079cea
+      id: 3586861854
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6dc788a37b2b4a4db08a27292e8ed4a3
+      - ElementName: FootstepsSwitch
+        ObjectType: 11
+        guid: 48a68982b1b07e4d88c884b17e079cea
+      Path: Switches\Default Work Unit\FootstepsSwitch
+      values:
+      - name: Metal
+        guid: 95e75624d8f20b4dbcf7f46c41e76cf1
+        id: 2473969246
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6dc788a37b2b4a4db08a27292e8ed4a3
+        - ElementName: FootstepsSwitch
+          ObjectType: 11
+          guid: 48a68982b1b07e4d88c884b17e079cea
+        - ElementName: Metal
+          ObjectType: 10
+          guid: 95e75624d8f20b4dbcf7f46c41e76cf1
+      - name: Sand
+        guid: 59ffc35d57383a43b1d225d9f50ed552
+        id: 803837735
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 6dc788a37b2b4a4db08a27292e8ed4a3
+        - ElementName: FootstepsSwitch
+          ObjectType: 11
+          guid: 48a68982b1b07e4d88c884b17e079cea
+        - ElementName: Sand
+          ObjectType: 10
+          guid: 59ffc35d57383a43b1d225d9f50ed552
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:
@@ -405,7 +489,7 @@ MonoBehaviour:
     m_lastTime: -8584911798174775808
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000500000006000000070000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001200000013000000
+  ExpandedWaapiItemIds: 010000000500000006000000070000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001200000013000000190000001a000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -174,6 +174,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_PlayerFootstepsEvent" ID="{2351DD05-B1A0-4B9E-A9F3-DBE0E51B2727}">
+					<ChildrenList>
+						<Action Name="" ID="{808E3CDF-6819-433B-B725-8A6ECB876E8F}" ShortID="891435243">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="footsteps" ID="{032365FC-2863-4B9F-BF69-AE51A18259EE}" WorkUnitID="{1B55DE8B-2CE8-4A18-ABE3-645A666F02C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_PlayerHealEvent" ID="{8735CDFC-3B78-4E1F-86F5-E20A97AF5337}">
+					<ChildrenList>
+						<Action Name="" ID="{AB0344B7-528A-4341-AAB2-7DFB61896EBE}" ShortID="347429137">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="duct-tape-3-183995-floraphonic-pixabay" ID="{01053877-54AB-4F0A-817B-83D98E309849}" WorkUnitID="{1B55DE8B-2CE8-4A18-ABE3-645A666F02C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

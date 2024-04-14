@@ -13,10 +13,14 @@
 						<ObjectRef Name="Play_PlayerRocketEvent" ID="{E7DC1465-7689-4512-9E6A-497843ECAB76}" WorkUnitID="{DB414441-E5A3-462D-949D-8953EFA62F98}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_MachineMovement" ID="{D0703348-6A36-468D-B672-C6A462D9B3CC}" WorkUnitID="{DB414441-E5A3-462D-949D-8953EFA62F98}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_LevelFireEvent" ID="{8426150C-8CB0-46FD-91F4-EBB5DD2D308A}" WorkUnitID="{DB414441-E5A3-462D-949D-8953EFA62F98}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_PlayerFootstepsEvent" ID="{2351DD05-B1A0-4B9E-A9F3-DBE0E51B2727}" WorkUnitID="{DB414441-E5A3-462D-949D-8953EFA62F98}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_PlayerShotgunShot" ID="{AD28C1F0-1CC8-4BA8-BA24-F688856A2CD5}" WorkUnitID="{DB414441-E5A3-462D-949D-8953EFA62F98}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_LevelAirAmienceEvent" ID="{8EF46EEF-B676-4C0E-9097-E59ADCA2B27A}" WorkUnitID="{DB414441-E5A3-462D-949D-8953EFA62F98}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_RoamingMachineEvents" ID="{BEA170F2-6F75-4DC1-B52F-BF70490A7860}" WorkUnitID="{DB414441-E5A3-462D-949D-8953EFA62F98}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_PlayerPistolShot" ID="{B00D9F4B-FD53-4DF4-8DC0-94EF6E6D78B5}" WorkUnitID="{DB414441-E5A3-462D-949D-8953EFA62F98}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_PlayerHealEvent" ID="{8735CDFC-3B78-4E1F-86F5-E20A97AF5337}" WorkUnitID="{DB414441-E5A3-462D-949D-8953EFA62F98}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_RoamerDeathEvent" ID="{022C8673-4D4F-4EFF-90E4-A13857BD13C5}" WorkUnitID="{DB414441-E5A3-462D-949D-8953EFA62F98}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_TurretDeathEvent" ID="{DDF0CEDB-E73A-4F76-933F-6D3DB6C22AAD}" WorkUnitID="{DB414441-E5A3-462D-949D-8953EFA62F98}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
