@@ -1,8 +1,10 @@
 Event	ID	Name			Wwise Object Path	Notes
 	125713821	Play_PlayerLauncherCharge			\Default Work Unit\Play_PlayerLauncherCharge	
 	139308969	Play_PlayerShotgunShot			\Default Work Unit\Play_PlayerShotgunShot	
+	510078518	Play_RoamerDeathEvent			\Default Work Unit\Play_RoamerDeathEvent	
 	1039140651	Play_MachineAlertEvent			\Default Work Unit\Play_MachineAlertEvent	
 	1738958647	Stop_RoamingMachineEvents			\Default Work Unit\Stop_RoamingMachineEvents	
+	1752079354	Play_TurretDeathEvent			\Default Work Unit\Play_TurretDeathEvent	
 	1814839449	Play_LevelGasEvent			\Default Work Unit\Play_LevelGasEvent	
 	2100791062	Play_LevelAirAmienceEvent			\Default Work Unit\Play_LevelAirAmienceEvent	
 	2461339184	Play_LevelFireEvent			\Default Work Unit\Play_LevelFireEvent	
@@ -19,12 +21,16 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	40068453	RAWcharged-laser-shot7125-pixabay	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\ImportedAudio\RAWcharged-laser-7125-pixabay_5319FC00.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\RAWcharged-laser-shot7125-pixabay		345520
 	114848322	mgsalert-giannigamefreak	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\mgsalert-giannigamefreak_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\mgsalert-giannigamefreak		318860
 	436270674	airidle5	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\airidle5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment Recordings\Air Ambience\airidle5		1918048
-	502066736	large-rocket-engine-86240-pixabay	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\large-rocket-engine-86240-pixabay_E010CFDC.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\large-rocket-engine-86240-pixabay		612088
+	436311998	zapsplat_explosion_detonate_blast_designed_002_89754	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\zapsplat_explosion_detonate_blast_designed_002_89754_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\Turret Death\zapsplat_explosion_detonate_blast_designed_002_89754		900484
+	485869477	explosion-80108-pixapit	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\explosion-80108-pixapit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\Roamer Death\explosion-80108-pixapit		433248
+	502066736	large-rocket-engine-86240-pixabay	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\large-rocket-engine-86240-pixabay_661ED83E.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\large-rocket-engine-86240-pixabay		612088
+	637810265	explosion-42132-pixapit	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\explosion-42132-pixapit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\Roamer Death\explosion-42132-pixapit		331872
 	746300524	RAWcharged-laser-charge7125-pixabay_01	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\ImportedAudio\RAWcharged-laser-7125-pixabay_2EE17AF1.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\RAWcharged-laser-charge7125-pixabay_01		337340
 	762071411	airidle4	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\airidle4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment Recordings\Air Ambience\airidle4		1741920
 	779577029	RAWlaser-zap-90575-pixabay	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\ImportedAudio\RAWlaser-zap-90575-pixabay_CED32EB2.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\RAWlaser-zap-90575-pixabay		90840
 	874491271	paperscrunch_RAW	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\paperscrunch_RAW_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment Recordings\paperscrunch_RAW		1890144
 	943649303	RAWlaser-gun-81720-pixabay	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\ImportedAudio\RAWlaser-gun-81720-pixabay_CE194B45.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\RAWlaser-gun-81720-pixabay		200668
+	966336095	zapsplat_explosion_detonate_blast_designed_001_89753	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\zapsplat_explosion_detonate_blast_designed_001_89753_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\Turret Death\zapsplat_explosion_detonate_blast_designed_001_89753		1230324
 	967681174	aircompressor_RAW	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\aircompressor_RAW_C5579977.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment Recordings\aircompressor_RAW		1858144
-	1004968468	gas-burning-stove-loop-123665-pixapit	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\gas-burning-stove-loop-123665-pixapit_00BACAE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\gas-burning-stove-loop-123665-pixapit		1275908
+	1004968468	gas-burning-stove-loop-123665-pixapit	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\gas-burning-stove-loop-123665-pixapit_C0F13FD2.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\gas-burning-stove-loop-123665-pixapit		1275908
 

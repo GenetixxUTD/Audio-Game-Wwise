@@ -25,7 +25,7 @@
 				<GameParameter Id="3199966932" Name="RocketPitchRTPC"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{04E8CDE0-CDF3-5A50-9407-AC3F7F85AF40}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{425879DD-39C3-9631-FE7F-C9E59D2BD0A7}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -41,9 +41,21 @@
 					<ShortName>airidle5.WAV</ShortName>
 					<CachePath>SFX/airidle5_10C4C929.wem</CachePath>
 				</File>
+				<File Id="436311998" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>zapsplat_explosion_detonate_blast_designed_002_89754.wav</ShortName>
+					<CachePath>SFX/zapsplat_explosion_detonate_blast_designed_002_89754_10C4C929.wem</CachePath>
+				</File>
+				<File Id="485869477" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>explosion-80108-pixapit.wav</ShortName>
+					<CachePath>SFX/explosion-80108-pixapit_10C4C929.wem</CachePath>
+				</File>
 				<File Id="502066736" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>large-rocket-engine-86240-pixabay.wav</ShortName>
-					<CachePath>SFX/large-rocket-engine-86240-pixabay_E010CFDC.wem</CachePath>
+					<CachePath>SFX/large-rocket-engine-86240-pixabay_661ED83E.wem</CachePath>
+				</File>
+				<File Id="637810265" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>explosion-42132-pixapit.wav</ShortName>
+					<CachePath>SFX/explosion-42132-pixapit_10C4C929.wem</CachePath>
 				</File>
 				<File Id="746300524" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ImportedAudio\RAWcharged-laser-7125-pixabay.wav</ShortName>
@@ -65,13 +77,17 @@
 					<ShortName>ImportedAudio\RAWlaser-gun-81720-pixabay.wav</ShortName>
 					<CachePath>SFX/ImportedAudio/RAWlaser-gun-81720-pixabay_CE194B45.wem</CachePath>
 				</File>
+				<File Id="966336095" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>zapsplat_explosion_detonate_blast_designed_001_89753.wav</ShortName>
+					<CachePath>SFX/zapsplat_explosion_detonate_blast_designed_001_89753_10C4C929.wem</CachePath>
+				</File>
 				<File Id="967681174" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>aircompressor_RAW.WAV</ShortName>
 					<CachePath>SFX/aircompressor_RAW_C5579977.wem</CachePath>
 				</File>
 				<File Id="1004968468" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>gas-burning-stove-loop-123665-pixapit.wav</ShortName>
-					<CachePath>SFX/gas-burning-stove-loop-123665-pixapit_00BACAE9.wem</CachePath>
+					<CachePath>SFX/gas-burning-stove-loop-123665-pixapit_C0F13FD2.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -126,6 +142,18 @@
 						<MediaRef Id="779577029"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="510078518" Name="Play_RoamerDeathEvent" MaxAttenuation="75" DurationType="OneShot" DurationMin="3.2558308" DurationMax="5.6739607">
+					<MediaRefs>
+						<MediaRef Id="485869477"/>
+						<MediaRef Id="637810265"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1752079354" Name="Play_TurretDeathEvent" MaxAttenuation="75" DurationType="OneShot" DurationMin="4.058952" DurationMax="7.40285">
+					<MediaRefs>
+						<MediaRef Id="436311998"/>
+						<MediaRef Id="966336095"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3361080125" Name="Stop_PlayerRocketEvent" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1738958647" Name="Stop_RoamingMachineEvents" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
@@ -134,5 +162,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CEB47688-BAAD-AEA4-1B43-0DEDA38CE57C}</FileHash>
+	<FileHash>{0FE82B6B-BCB1-34CA-8986-9CE4E095BD1E}</FileHash>
 </SoundBanksInfo>

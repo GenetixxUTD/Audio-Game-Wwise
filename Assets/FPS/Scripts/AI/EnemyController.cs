@@ -121,6 +121,7 @@ namespace Unity.FPS.AI
 
         public AK.Wwise.Event shootEvent;
         public AK.Wwise.Event alertEvent;
+        public AK.Wwise.Event deathEvent;
 
         void Start()
         {
@@ -366,6 +367,8 @@ namespace Unity.FPS.AI
 
             // tells the game flow manager to handle the enemy destuction
             m_EnemyManager.UnregisterEnemy(this);
+
+            deathEvent.Post(this.gameObject);
 
             // loot an object
             if (TryDropItem())

@@ -152,6 +152,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_RoamerDeathEvent" ID="{022C8673-4D4F-4EFF-90E4-A13857BD13C5}">
+					<ChildrenList>
+						<Action Name="" ID="{0AD1BF87-1E6A-43DC-9D7E-E74F9737BDEE}" ShortID="702300386">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Roamer Death" ID="{2141F068-8651-4008-A61C-93C589AD323C}" WorkUnitID="{1B55DE8B-2CE8-4A18-ABE3-645A666F02C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TurretDeathEvent" ID="{DDF0CEDB-E73A-4F76-933F-6D3DB6C22AAD}">
+					<ChildrenList>
+						<Action Name="" ID="{FBC4ABB3-8224-4DE0-874D-C282E62672E9}" ShortID="415127076">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Turret Death" ID="{051C9803-2C11-46AC-B0B1-E0E72625D47E}" WorkUnitID="{1B55DE8B-2CE8-4A18-ABE3-645A666F02C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
