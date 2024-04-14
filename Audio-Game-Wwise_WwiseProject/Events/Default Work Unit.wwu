@@ -130,12 +130,23 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Air_Ambience" ID="{8EF46EEF-B676-4C0E-9097-E59ADCA2B27A}">
+				<Event Name="Play_LevelAirAmienceEvent" ID="{8EF46EEF-B676-4C0E-9097-E59ADCA2B27A}">
 					<ChildrenList>
 						<Action Name="" ID="{DDAC7BC1-CF05-4094-BCF8-D57A177DFFF5}" ShortID="886883398">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Air Ambience" ID="{FC65DDAE-D30E-4EAF-82DC-B2ECA2AE4899}" WorkUnitID="{1B55DE8B-2CE8-4A18-ABE3-645A666F02C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MachineAlertEvent" ID="{307F299E-3DDE-42A3-9B6D-97597D98E020}">
+					<ChildrenList>
+						<Action Name="" ID="{58AF17D4-37CD-4715-9DF0-31CB20BFBA79}" ShortID="58740029">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="mgsalert-giannigamefreak" ID="{138228A7-CDAB-4527-8B60-B3899ADD4D24}" WorkUnitID="{1B55DE8B-2CE8-4A18-ABE3-645A666F02C9}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
