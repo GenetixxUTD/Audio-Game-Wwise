@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f4b671e4529d304798f1985917140ce5
     GuidInternal: 
-    m_lastTime: -8584885423734775808
+    m_lastTime: -8584885381994775808
     List:
     - name: Main
       guid: fdf66c1abf433d4ab57deaebc3e11f14
@@ -94,8 +94,59 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 414441dba3e52d46949d8953efa62f98
     GuidInternal: 
-    m_lastTime: -8584885423734775808
+    m_lastTime: -8584885381994775808
     List:
+    - name: Play_Air_Ambience
+      guid: ef6ef48e76b60e4c9097e59adca2b27a
+      id: 1823693105
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 414441dba3e52d46949d8953efa62f98
+      - ElementName: Play_Air_Ambience
+        ObjectType: 3
+        guid: ef6ef48e76b60e4c9097e59adca2b27a
+      Path: Events\Default Work Unit\Play_Air_Ambience
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_LevelFireEvent
+      guid: 0c152684b08cfd4691f4ebb5dd2d308a
+      id: 2461339184
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 414441dba3e52d46949d8953efa62f98
+      - ElementName: Play_LevelFireEvent
+        ObjectType: 3
+        guid: 0c152684b08cfd4691f4ebb5dd2d308a
+      Path: Events\Default Work Unit\Play_LevelFireEvent
+      maxAttenuation: 40
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_LevelGasEvent
+      guid: ac2a7ff860a868429a8e1e39567dbe41
+      id: 1814839449
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 414441dba3e52d46949d8953efa62f98
+      - ElementName: Play_LevelGasEvent
+        ObjectType: 3
+        guid: ac2a7ff860a868429a8e1e39567dbe41
+      Path: Events\Default Work Unit\Play_LevelGasEvent
+      maxAttenuation: 40
+      maxDuration: -1
+      minDuration: -1
     - name: Play_MachineMovement
       guid: 483370d0366a8d46b672c6a462d9b3cc
       id: 3566803906

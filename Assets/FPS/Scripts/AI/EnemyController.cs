@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using JetBrains.Annotations;
+using System.Collections.Generic;
 using Unity.FPS.Game;
 using UnityEngine;
 using UnityEngine.AI;
@@ -119,6 +120,7 @@ namespace Unity.FPS.AI
         NavigationModule m_NavigationModule;
 
         public AK.Wwise.Event shootEvent;
+        public AK.Wwise.Event alertEvent;
 
         void Start()
         {
@@ -245,6 +247,7 @@ namespace Unity.FPS.AI
         {
             onDetectedTarget.Invoke();
 
+            alertEvent.Post(this.gameObject);
             // Set the eye default color and property block if the eye renderer is set
             if (m_EyeRendererData.Renderer != null)
             {

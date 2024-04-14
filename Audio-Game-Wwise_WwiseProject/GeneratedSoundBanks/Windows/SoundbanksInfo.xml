@@ -25,13 +25,17 @@
 				<GameParameter Id="3199966932" Name="RocketPitchRTPC"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{9B34ED19-B15D-B4FC-95BD-D831CC4B04C4}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{04E8CDE0-CDF3-5A50-9407-AC3F7F85AF40}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
 				<File Id="40068453" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ImportedAudio\RAWcharged-laser-7125-pixabay.wav</ShortName>
 					<CachePath>SFX/ImportedAudio/RAWcharged-laser-7125-pixabay_5319FC00.wem</CachePath>
+				</File>
+				<File Id="114848322" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mgsalert-giannigamefreak.wav</ShortName>
+					<CachePath>SFX/mgsalert-giannigamefreak_10C4C929.wem</CachePath>
 				</File>
 				<File Id="436270674" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>airidle5.WAV</ShortName>
@@ -87,6 +91,11 @@
 						<MediaRef Id="1004968468"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1039140651" Name="Play_MachineAlertEvent" MaxAttenuation="75" DurationType="OneShot" DurationMin="1.6602292" DurationMax="1.6602292">
+					<MediaRefs>
+						<MediaRef Id="114848322"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3566803906" Name="Play_MachineMovement" MaxAttenuation="75" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="967681174"/>
@@ -125,5 +134,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7BE76522-CE02-E023-CD1D-C1890ACD7D4A}</FileHash>
+	<FileHash>{8D4E74FF-CD4F-2D23-AA22-94CBC6044C84}</FileHash>
 </SoundBanksInfo>

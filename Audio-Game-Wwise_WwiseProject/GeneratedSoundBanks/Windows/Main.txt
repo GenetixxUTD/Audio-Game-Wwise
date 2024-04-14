@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	125713821	Play_PlayerLauncherCharge			\Default Work Unit\Play_PlayerLauncherCharge	
 	139308969	Play_PlayerShotgunShot			\Default Work Unit\Play_PlayerShotgunShot	
+	1039140651	Play_MachineAlertEvent			\Default Work Unit\Play_MachineAlertEvent	
 	1738958647	Stop_RoamingMachineEvents			\Default Work Unit\Stop_RoamingMachineEvents	
 	1814839449	Play_LevelGasEvent			\Default Work Unit\Play_LevelGasEvent	
 	2100791062	Play_LevelAirAmienceEvent			\Default Work Unit\Play_LevelAirAmienceEvent	
@@ -16,6 +17,7 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	40068453	RAWcharged-laser-shot7125-pixabay	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\ImportedAudio\RAWcharged-laser-7125-pixabay_5319FC00.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\RAWcharged-laser-shot7125-pixabay		345520
+	114848322	mgsalert-giannigamefreak	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\mgsalert-giannigamefreak_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\mgsalert-giannigamefreak		318860
 	436270674	airidle5	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\airidle5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment Recordings\Air Ambience\airidle5		1918048
 	502066736	large-rocket-engine-86240-pixabay	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\large-rocket-engine-86240-pixabay_E010CFDC.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\large-rocket-engine-86240-pixabay		612088
 	746300524	RAWcharged-laser-charge7125-pixabay_01	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\ImportedAudio\RAWcharged-laser-7125-pixabay_2EE17AF1.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\RAWcharged-laser-charge7125-pixabay_01		337340

@@ -301,6 +301,11 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: dfe2e2a3cb5306b4dbac1169b78272d0,
       type: 2}
+  alertEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 8617db2b21da57a4eb532a04203dc692,
+      type: 2}
 --- !u!114 &6370966072896210225
 MonoBehaviour:
   m_ObjectHideFlags: 0
