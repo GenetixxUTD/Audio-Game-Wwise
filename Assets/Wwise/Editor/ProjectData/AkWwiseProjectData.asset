@@ -144,7 +144,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 468846d321c81e4282fbed26faa457d4
       Path: Events\Default Work Unit\Play_PlayerLauncherShot
-      maxAttenuation: 0
+      maxAttenuation: 100
       maxDuration: 4.1571484
       minDuration: 3.1143425
     - name: Play_PlayerPistolShot
@@ -161,7 +161,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 4b9f0db053fdf44d8dc094ef6e6d78b5
       Path: Events\Default Work Unit\Play_PlayerPistolShot
-      maxAttenuation: 75
+      maxAttenuation: 100
       maxDuration: 2.4138916
       minDuration: 1.8083754
     - name: Play_PlayerShotgunShot
@@ -178,7 +178,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: f0c128adc81ca84bba24f688856a2cd5
       Path: Events\Default Work Unit\Play_PlayerShotgunShot
-      maxAttenuation: 75
+      maxAttenuation: 100
       maxDuration: 1.0921036
       minDuration: 0.81815326
     - name: Stop_RoamingMachineEvents
@@ -255,7 +255,7 @@ MonoBehaviour:
     m_lastTime: -8584911798174775808
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000500000006000000070000000a0000000b0000000c0000000d0000000e0000001000000011000000
+  ExpandedWaapiItemIds: 010000000500000006000000070000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

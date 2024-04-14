@@ -22,13 +22,17 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{19C4FF9B-75EF-F627-1BDA-ABD105BE5044}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{560197E2-688A-8EC5-0C69-19EFA3725DF2}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
 				<File Id="40068453" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ImportedAudio\RAWcharged-laser-7125-pixabay.wav</ShortName>
 					<CachePath>SFX/ImportedAudio/RAWcharged-laser-7125-pixabay_5319FC00.wem</CachePath>
+				</File>
+				<File Id="502066736" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>large-rocket-engine-86240-pixabay.wav</ShortName>
+					<CachePath>SFX/large-rocket-engine-86240-pixabay_E010CFDC.wem</CachePath>
 				</File>
 				<File Id="746300524" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ImportedAudio\RAWcharged-laser-7125-pixabay.wav</ShortName>
@@ -68,14 +72,20 @@
 						<MediaRef Id="943649303"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="4221610031" Name="Play_PlayerRocketEvent" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="502066736"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="139308969" Name="Play_PlayerShotgunShot" MaxAttenuation="100" DurationType="OneShot" DurationMin="0.81815326" DurationMax="1.0921036">
 					<MediaRefs>
 						<MediaRef Id="779577029"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3361080125" Name="Stop_PlayerRocketEvent" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1738958647" Name="Stop_RoamingMachineEvents" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E51C53F6-AD5D-F652-28DC-21056A57362B}</FileHash>
+	<FileHash>{66F4A2BC-6AFC-0D2D-5166-4EA77400472F}</FileHash>
 </SoundBanksInfo>

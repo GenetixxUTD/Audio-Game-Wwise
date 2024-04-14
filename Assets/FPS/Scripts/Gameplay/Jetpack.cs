@@ -35,8 +35,14 @@ namespace Unity.FPS.Gameplay
         [Tooltip("Delay after last use before starting to refill")]
         public float RefillDelay = 1f;
 
-        [Header("Audio")] [Tooltip("Sound played when using the jetpack")]
+        [Header("Audio")]
+        [Tooltip("Sound played when using the jetpack")]
         public AudioClip JetpackSfx;
+
+        public AK.Wwise.Event jetpackSFXEvent;
+        public AK.Wwise.Event jetpackStopEvent;
+
+        private bool isEventPlaying;
 
         bool m_CanUseJetpack;
         PlayerCharacterController m_PlayerCharacterController;
@@ -66,6 +72,7 @@ namespace Unity.FPS.Gameplay
 
             AudioSource.clip = JetpackSfx;
             AudioSource.loop = true;
+            isEventPlaying = false;
         }
 
         void Update()
@@ -114,6 +121,12 @@ namespace Unity.FPS.Gameplay
 
                 if (!AudioSource.isPlaying)
                     AudioSource.Play();
+
+                if(!isEventPlaying)
+                {
+                    jetpackSFXEvent.Post(this.gameObject);
+                    isEventPlaying = true;
+                }
             }
             else
             {
@@ -137,6 +150,12 @@ namespace Unity.FPS.Gameplay
 
                 if (AudioSource.isPlaying)
                     AudioSource.Stop();
+
+                if(isEventPlaying)
+                {
+                    jetpackStopEvent.Post(this.gameObject);
+                    isEventPlaying = false;
+                }
             }
         }
 
