@@ -25,7 +25,7 @@
 				<GameParameter Id="3199966932" Name="RocketPitchRTPC"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{C7CC11C8-1678-AEC4-F233-0AFB68AD0487}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{1B9E0956-2A53-3B51-270F-807DF9377691}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -45,6 +45,10 @@
 					<ShortName>ImportedAudio\RAWlaser-zap-90575-pixabay.wav</ShortName>
 					<CachePath>SFX/ImportedAudio/RAWlaser-zap-90575-pixabay_CED32EB2.wem</CachePath>
 				</File>
+				<File Id="874491271" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>paperscrunch_RAW.WAV</ShortName>
+					<CachePath>SFX/paperscrunch_RAW_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="943649303" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ImportedAudio\RAWlaser-gun-81720-pixabay.wav</ShortName>
 					<CachePath>SFX/ImportedAudio/RAWlaser-gun-81720-pixabay_CE194B45.wem</CachePath>
@@ -53,8 +57,22 @@
 					<ShortName>aircompressor_RAW.WAV</ShortName>
 					<CachePath>SFX/aircompressor_RAW_C5579977.wem</CachePath>
 				</File>
+				<File Id="1004968468" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>gas-burning-stove-loop-123665-pixapit.wav</ShortName>
+					<CachePath>SFX/gas-burning-stove-loop-123665-pixapit_00BACAE9.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
+				<Event Id="2461339184" Name="Play_LevelFireEvent" MaxAttenuation="40" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="874491271"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1814839449" Name="Play_LevelGasEvent" MaxAttenuation="40" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="1004968468"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="3566803906" Name="Play_MachineMovement" MaxAttenuation="75" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="967681174"/>
@@ -93,5 +111,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{87522A35-BA9B-9889-83BD-F6871F52677C}</FileHash>
+	<FileHash>{92F1146C-1374-EFEA-2A0D-15E0E22C90C3}</FileHash>
 </SoundBanksInfo>

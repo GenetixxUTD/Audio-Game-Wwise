@@ -2,6 +2,8 @@ Event	ID	Name			Wwise Object Path	Notes
 	125713821	Play_PlayerLauncherCharge			\Default Work Unit\Play_PlayerLauncherCharge	
 	139308969	Play_PlayerShotgunShot			\Default Work Unit\Play_PlayerShotgunShot	
 	1738958647	Stop_RoamingMachineEvents			\Default Work Unit\Stop_RoamingMachineEvents	
+	1814839449	Play_LevelGasEvent			\Default Work Unit\Play_LevelGasEvent	
+	2461339184	Play_LevelFireEvent			\Default Work Unit\Play_LevelFireEvent	
 	3361080125	Stop_PlayerRocketEvent			\Default Work Unit\Stop_PlayerRocketEvent	
 	3498406285	Play_PlayerLauncherShot			\Default Work Unit\Play_PlayerLauncherShot	
 	3566803906	Play_MachineMovement			\Default Work Unit\Play_MachineMovement	
@@ -16,6 +18,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	502066736	large-rocket-engine-86240-pixabay	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\large-rocket-engine-86240-pixabay_E010CFDC.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\large-rocket-engine-86240-pixabay		612088
 	746300524	RAWcharged-laser-charge7125-pixabay_01	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\ImportedAudio\RAWcharged-laser-7125-pixabay_2EE17AF1.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\RAWcharged-laser-charge7125-pixabay_01		337340
 	779577029	RAWlaser-zap-90575-pixabay	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\ImportedAudio\RAWlaser-zap-90575-pixabay_CED32EB2.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\RAWlaser-zap-90575-pixabay		90840
+	874491271	paperscrunch_RAW	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\paperscrunch_RAW_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment Recordings\paperscrunch_RAW		1890144
 	943649303	RAWlaser-gun-81720-pixabay	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\ImportedAudio\RAWlaser-gun-81720-pixabay_CE194B45.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\RAWlaser-gun-81720-pixabay		200668
 	967681174	aircompressor_RAW	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\aircompressor_RAW_C5579977.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment Recordings\aircompressor_RAW		1858144
+	1004968468	gas-burning-stove-loop-123665-pixapit	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\gas-burning-stove-loop-123665-pixapit_00BACAE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\gas-burning-stove-loop-123665-pixapit		1275908
 

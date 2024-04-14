@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f4b671e4529d304798f1985917140ce5
     GuidInternal: 
-    m_lastTime: -8584885683034775808
+    m_lastTime: -8584885423734775808
     List:
     - name: Main
       guid: fdf66c1abf433d4ab57deaebc3e11f14
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 414441dba3e52d46949d8953efa62f98
     GuidInternal: 
-    m_lastTime: -8584885683034775808
+    m_lastTime: -8584885423734775808
     List:
     - name: Play_MachineMovement
       guid: 483370d0366a8d46b672c6a462d9b3cc
@@ -164,6 +164,23 @@ MonoBehaviour:
       maxAttenuation: 100
       maxDuration: 2.4138916
       minDuration: 1.8083754
+    - name: Play_PlayerRocketEvent
+      guid: 6514dce7897612459e6a497843ecab76
+      id: 4221610031
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 414441dba3e52d46949d8953efa62f98
+      - ElementName: Play_PlayerRocketEvent
+        ObjectType: 3
+        guid: 6514dce7897612459e6a497843ecab76
+      Path: Events\Default Work Unit\Play_PlayerRocketEvent
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_PlayerShotgunShot
       guid: f0c128adc81ca84bba24f688856a2cd5
       id: 139308969
@@ -181,6 +198,23 @@ MonoBehaviour:
       maxAttenuation: 100
       maxDuration: 1.0921036
       minDuration: 0.81815326
+    - name: Stop_PlayerRocketEvent
+      guid: c2bce91a441ff640b7019e0b446d2370
+      id: 3361080125
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 414441dba3e52d46949d8953efa62f98
+      - ElementName: Stop_PlayerRocketEvent
+        ObjectType: 3
+        guid: c2bce91a441ff640b7019e0b446d2370
+      Path: Events\Default Work Unit\Stop_PlayerRocketEvent
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Stop_RoamingMachineEvents
       guid: f270a1be756fc14db52fbf70490a7860
       id: 1738958647
@@ -210,8 +244,22 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 277812ae88a3b84eb2efe8d09fdc6957
     GuidInternal: 
-    m_lastTime: -8584911798174775808
-    List: []
+    m_lastTime: -8584885423734775808
+    List:
+    - name: RocketPitchRTPC
+      guid: 1e7a09d6c0463d42a25fc21d8368961d
+      id: 3199966932
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 277812ae88a3b84eb2efe8d09fdc6957
+      - ElementName: RocketPitchRTPC
+        ObjectType: 13
+        guid: 1e7a09d6c0463d42a25fc21d8368961d
+      Path: Game Parameters\Default Work Unit\RocketPitchRTPC
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -255,7 +303,7 @@ MonoBehaviour:
     m_lastTime: -8584911798174775808
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000500000006000000070000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000
+  ExpandedWaapiItemIds: 010000000500000006000000070000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001200000013000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

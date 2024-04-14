@@ -108,6 +108,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_LevelFireEvent" ID="{8426150C-8CB0-46FD-91F4-EBB5DD2D308A}">
+					<ChildrenList>
+						<Action Name="" ID="{A87A812E-7D77-4A43-8002-ED14E3FEF312}" ShortID="316323707">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="paperscrunch_RAW" ID="{B16E3D1E-F66C-4109-9924-F498F6D9F7C3}" WorkUnitID="{1B55DE8B-2CE8-4A18-ABE3-645A666F02C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
