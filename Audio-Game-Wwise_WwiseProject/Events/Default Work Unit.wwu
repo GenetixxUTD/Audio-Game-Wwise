@@ -119,6 +119,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_LevelGasEvent" ID="{F87F2AAC-A860-4268-9A8E-1E39567DBE41}">
+					<ChildrenList>
+						<Action Name="" ID="{F8E08415-35B7-44A9-B16E-6EECA1FD73E4}" ShortID="592845022">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="gas-burning-stove-loop-123665-pixapit" ID="{C8DCC00D-B547-4C6E-A17C-24F98A243ED7}" WorkUnitID="{1B55DE8B-2CE8-4A18-ABE3-645A666F02C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Air_Ambience" ID="{8EF46EEF-B676-4C0E-9097-E59ADCA2B27A}">
+					<ChildrenList>
+						<Action Name="" ID="{DDAC7BC1-CF05-4094-BCF8-D57A177DFFF5}" ShortID="886883398">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Air Ambience" ID="{FC65DDAE-D30E-4EAF-82DC-B2ECA2AE4899}" WorkUnitID="{1B55DE8B-2CE8-4A18-ABE3-645A666F02C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

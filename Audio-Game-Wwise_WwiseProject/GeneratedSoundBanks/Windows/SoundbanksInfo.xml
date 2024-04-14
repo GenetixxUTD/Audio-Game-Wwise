@@ -25,13 +25,17 @@
 				<GameParameter Id="3199966932" Name="RocketPitchRTPC"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{1B9E0956-2A53-3B51-270F-807DF9377691}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{9B34ED19-B15D-B4FC-95BD-D831CC4B04C4}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
 				<File Id="40068453" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ImportedAudio\RAWcharged-laser-7125-pixabay.wav</ShortName>
 					<CachePath>SFX/ImportedAudio/RAWcharged-laser-7125-pixabay_5319FC00.wem</CachePath>
+				</File>
+				<File Id="436270674" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>airidle5.WAV</ShortName>
+					<CachePath>SFX/airidle5_10C4C929.wem</CachePath>
 				</File>
 				<File Id="502066736" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>large-rocket-engine-86240-pixabay.wav</ShortName>
@@ -40,6 +44,10 @@
 				<File Id="746300524" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ImportedAudio\RAWcharged-laser-7125-pixabay.wav</ShortName>
 					<CachePath>SFX/ImportedAudio/RAWcharged-laser-7125-pixabay_2EE17AF1.wem</CachePath>
+				</File>
+				<File Id="762071411" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>airidle4.WAV</ShortName>
+					<CachePath>SFX/airidle4_10C4C929.wem</CachePath>
 				</File>
 				<File Id="779577029" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ImportedAudio\RAWlaser-zap-90575-pixabay.wav</ShortName>
@@ -63,6 +71,12 @@
 				</File>
 			</Media>
 			<Events>
+				<Event Id="2100791062" Name="Play_LevelAirAmienceEvent" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="436270674"/>
+						<MediaRef Id="762071411"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2461339184" Name="Play_LevelFireEvent" MaxAttenuation="40" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="874491271"/>
@@ -111,5 +125,5 @@
 			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{92F1146C-1374-EFEA-2A0D-15E0E22C90C3}</FileHash>
+	<FileHash>{7BE76522-CE02-E023-CD1D-C1890ACD7D4A}</FileHash>
 </SoundBanksInfo>

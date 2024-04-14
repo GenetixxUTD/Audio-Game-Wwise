@@ -8,8 +8,10 @@
 						<ObjectRef Name="Stop_PlayerRocketEvent" ID="{1AE9BCC2-1F44-40F6-B701-9E0B446D2370}" WorkUnitID="{DB414441-E5A3-462D-949D-8953EFA62F98}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_PlayerLauncherCharge" ID="{DD0E42DE-64B7-4216-B653-875E9BC8D451}" WorkUnitID="{DB414441-E5A3-462D-949D-8953EFA62F98}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_PlayerLauncherShot" ID="{D3468846-C821-421E-82FB-ED26FAA457D4}" WorkUnitID="{DB414441-E5A3-462D-949D-8953EFA62F98}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_LevelGasEvent" ID="{F87F2AAC-A860-4268-9A8E-1E39567DBE41}" WorkUnitID="{DB414441-E5A3-462D-949D-8953EFA62F98}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_PlayerRocketEvent" ID="{E7DC1465-7689-4512-9E6A-497843ECAB76}" WorkUnitID="{DB414441-E5A3-462D-949D-8953EFA62F98}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_MachineMovement" ID="{D0703348-6A36-468D-B672-C6A462D9B3CC}" WorkUnitID="{DB414441-E5A3-462D-949D-8953EFA62F98}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_LevelFireEvent" ID="{8426150C-8CB0-46FD-91F4-EBB5DD2D308A}" WorkUnitID="{DB414441-E5A3-462D-949D-8953EFA62F98}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_PlayerShotgunShot" ID="{AD28C1F0-1CC8-4BA8-BA24-F688856A2CD5}" WorkUnitID="{DB414441-E5A3-462D-949D-8953EFA62F98}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_RoamingMachineEvents" ID="{BEA170F2-6F75-4DC1-B52F-BF70490A7860}" WorkUnitID="{DB414441-E5A3-462D-949D-8953EFA62F98}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_PlayerPistolShot" ID="{B00D9F4B-FD53-4DF4-8DC0-94EF6E6D78B5}" WorkUnitID="{DB414441-E5A3-462D-949D-8953EFA62F98}" Origin="Manual" Filter="7"/>
