@@ -67,13 +67,15 @@ namespace Unity.FPS.Gameplay
         public float CrouchingSharpness = 10f;
 
         [Header("Audio")] [Tooltip("Amount of footstep sounds played when moving one meter")]
-        public float FootstepSfxFrequency = 1f;
+        public float FootstepSfxFrequency = .2f;
 
         [Tooltip("Amount of footstep sounds played when moving one meter while sprinting")]
-        public float FootstepSfxFrequencyWhileSprinting = 1f;
+        public float FootstepSfxFrequencyWhileSprinting = .25f;
+
+        private float chosenFootstepSfxFrequency;
 
         [Tooltip("Sound played for footsteps")]
-        public AudioClip FootstepSfx;
+        public AK.Wwise.Event footstepsEvent;
 
         [Tooltip("Sound played when jumping")] public AudioClip JumpSfx;
         [Tooltip("Sound played when landing")] public AudioClip LandSfx;
@@ -253,6 +255,11 @@ namespace Unity.FPS.Gameplay
                     // storing the upward direction for the surface found
                     m_GroundNormal = hit.normal;
 
+                    if(hit.transform.tag == "Metal" || hit.transform.tag == "Sand")
+                    {
+                        AkSoundEngine.SetSwitch("FootstepsSwitch", hit.transform.tag, this.gameObject);
+                    }
+
                     // Only consider this a valid ground hit if the ground normal goes in the same direction as the character up
                     // and if the slope angle is lower than the character controller's limit
                     if (Vector3.Dot(hit.normal, transform.up) > 0f &&
@@ -346,12 +353,25 @@ namespace Unity.FPS.Gameplay
                     }
 
                     // footsteps sound
-                    float chosenFootstepSfxFrequency =
-                        (isSprinting ? FootstepSfxFrequencyWhileSprinting : FootstepSfxFrequency);
+                    if (isSprinting)
+                    {
+                        chosenFootstepSfxFrequency = FootstepSfxFrequencyWhileSprinting;
+                    }
+                    else
+                    {
+                        chosenFootstepSfxFrequency = FootstepSfxFrequency;
+                    }
+
+                    Debug.Log(isSprinting);
+                    Debug.Log(chosenFootstepSfxFrequency);
+
                     if (m_FootstepDistanceCounter >= 1f / chosenFootstepSfxFrequency)
                     {
+                        //Debug.Log("Footstep Distance: "+ m_FootstepDistanceCounter);
+                        //Debug.Log("Footstep Frequency: " + 1f / chosenFootstepSfxFrequency);
                         m_FootstepDistanceCounter = 0f;
-                        AudioSource.PlayOneShot(FootstepSfx);
+                        //AudioSource.PlayOneShot(FootstepSfx);
+                        footstepsEvent.Post(this.gameObject);
                     }
 
                     // keep track of distance traveled for footsteps sound
@@ -478,6 +498,14 @@ namespace Unity.FPS.Gameplay
 
             IsCrouching = crouched;
             return true;
+        }
+
+        private void OnCollisionEnter(Collision collision)
+        {
+            if (collision.gameObject.tag == "Metal" || collision.gameObject.tag == "Sand")
+            {
+                AkSoundEngine.SetSwitch("FootstepsSwitch", collision.gameObject.tag, this.gameObject);
+            }
         }
     }
 }

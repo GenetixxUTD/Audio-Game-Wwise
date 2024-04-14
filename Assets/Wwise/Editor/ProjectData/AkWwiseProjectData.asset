@@ -281,8 +281,8 @@ MonoBehaviour:
         guid: 73862c024f4dff4e90e4a13857bd13c5
       Path: Events\Default Work Unit\Play_RoamerDeathEvent
       maxAttenuation: 75
-      maxDuration: 4.9110203
-      minDuration: 3.7616327
+      maxDuration: 5.6739607
+      minDuration: 3.2558308
     - name: Play_TurretDeathEvent
       guid: dbcef0dd3ae7764f933f6d3db6c22aad
       id: 1752079354
@@ -298,8 +298,8 @@ MonoBehaviour:
         guid: dbcef0dd3ae7764f933f6d3db6c22aad
       Path: Events\Default Work Unit\Play_TurretDeathEvent
       maxAttenuation: 75
-      maxDuration: 6.4074373
-      minDuration: 4.689521
+      maxDuration: 7.40285
+      minDuration: 4.058952
     - name: Stop_PlayerRocketEvent
       guid: c2bce91a441ff640b7019e0b446d2370
       id: 3361080125

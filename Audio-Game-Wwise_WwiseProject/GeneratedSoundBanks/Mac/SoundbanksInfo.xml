@@ -24,8 +24,16 @@
 			<GameParameters>
 				<GameParameter Id="3199966932" Name="RocketPitchRTPC"/>
 			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="3586861854" Name="FootstepsSwitch">
+					<Switches>
+						<Switch Id="803837735" Name="Sand"/>
+						<Switch Id="2473969246" Name="Metal"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{425879DD-39C3-9631-FE7F-C9E59D2BD0A7}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{8029C029-5B06-6807-8BE0-E0C12C24F529}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -36,6 +44,14 @@
 				<File Id="114848322" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>mgsalert-giannigamefreak.wav</ShortName>
 					<CachePath>SFX/mgsalert-giannigamefreak_10C4C929.wem</CachePath>
+				</File>
+				<File Id="142852571" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sand footsteps - Krotos Audio\sand footstep 2.wav</ShortName>
+					<CachePath>SFX/sand footsteps - Krotos Audio/sand footstep 2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="405495200" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>metal footsteps - Hush Angel\metal footstep 2.wav</ShortName>
+					<CachePath>SFX/metal footsteps - Hush Angel/metal footstep 2_10C4C929.wem</CachePath>
 				</File>
 				<File Id="436270674" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>airidle5.WAV</ShortName>
@@ -53,9 +69,25 @@
 					<ShortName>large-rocket-engine-86240-pixabay.wav</ShortName>
 					<CachePath>SFX/large-rocket-engine-86240-pixabay_661ED83E.wem</CachePath>
 				</File>
+				<File Id="502185773" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sand footsteps - Krotos Audio\sand footstep 4.wav</ShortName>
+					<CachePath>SFX/sand footsteps - Krotos Audio/sand footstep 4_10C4C929.wem</CachePath>
+				</File>
+				<File Id="602326104" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>metal footsteps - Hush Angel\metal footstep 4.wav</ShortName>
+					<CachePath>SFX/metal footsteps - Hush Angel/metal footstep 4_10C4C929.wem</CachePath>
+				</File>
+				<File Id="636117648" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>metal footsteps - Hush Angel\metal footstep 5.wav</ShortName>
+					<CachePath>SFX/metal footsteps - Hush Angel/metal footstep 5_10C4C929.wem</CachePath>
+				</File>
 				<File Id="637810265" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>explosion-42132-pixapit.wav</ShortName>
 					<CachePath>SFX/explosion-42132-pixapit_10C4C929.wem</CachePath>
+				</File>
+				<File Id="670311929" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sand footsteps - Krotos Audio\sand footstep 5.wav</ShortName>
+					<CachePath>SFX/sand footsteps - Krotos Audio/sand footstep 5_10C4C929.wem</CachePath>
 				</File>
 				<File Id="746300524" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ImportedAudio\RAWcharged-laser-7125-pixabay.wav</ShortName>
@@ -65,9 +97,25 @@
 					<ShortName>airidle4.WAV</ShortName>
 					<CachePath>SFX/airidle4_10C4C929.wem</CachePath>
 				</File>
+				<File Id="771965703" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>metal footsteps - Hush Angel\metal footstep 3.wav</ShortName>
+					<CachePath>SFX/metal footsteps - Hush Angel/metal footstep 3_10C4C929.wem</CachePath>
+				</File>
 				<File Id="779577029" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ImportedAudio\RAWlaser-zap-90575-pixabay.wav</ShortName>
 					<CachePath>SFX/ImportedAudio/RAWlaser-zap-90575-pixabay_CED32EB2.wem</CachePath>
+				</File>
+				<File Id="781107164" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sand footsteps - Krotos Audio\sand footstep 3.wav</ShortName>
+					<CachePath>SFX/sand footsteps - Krotos Audio/sand footstep 3_10C4C929.wem</CachePath>
+				</File>
+				<File Id="821053783" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>metal footsteps - Hush Angel\metal footstep 1.wav</ShortName>
+					<CachePath>SFX/metal footsteps - Hush Angel/metal footstep 1_10C4C929.wem</CachePath>
+				</File>
+				<File Id="835719834" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sand footsteps - Krotos Audio\sand footstep 1.wav</ShortName>
+					<CachePath>SFX/sand footsteps - Krotos Audio/sand footstep 1_10C4C929.wem</CachePath>
 				</File>
 				<File Id="874491271" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>paperscrunch_RAW.WAV</ShortName>
@@ -117,6 +165,30 @@
 						<MediaRef Id="967681174"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1830303642" Name="Play_PlayerFootstepsEvent" DurationType="OneShot" DurationMin="0.19882318" DurationMax="0.7254674">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3586861854" Id="803837735" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="142852571"/>
+								<MediaRef Id="502185773"/>
+								<MediaRef Id="670311929"/>
+								<MediaRef Id="781107164"/>
+								<MediaRef Id="835719834"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3586861854" Id="2473969246"/>
+							<MediaRefs>
+								<MediaRef Id="405495200"/>
+								<MediaRef Id="602326104"/>
+								<MediaRef Id="636117648"/>
+								<MediaRef Id="771965703"/>
+								<MediaRef Id="821053783"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="125713821" Name="Play_PlayerLauncherCharge" DurationType="OneShot" DurationMin="3.5129442" DurationMax="3.5129442">
 					<MediaRefs>
 						<MediaRef Id="746300524"/>
@@ -160,7 +232,15 @@
 			<GameParameters>
 				<GameParameter Id="3199966932" Name="RocketPitchRTPC"/>
 			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="3586861854" Name="FootstepsSwitch">
+					<Switches>
+						<Switch Id="803837735" Name="Sand"/>
+						<Switch Id="2473969246" Name="Metal"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{0FE82B6B-BCB1-34CA-8986-9CE4E095BD1E}</FileHash>
+	<FileHash>{D2D2D792-04BE-731C-2948-5C16190B03FB}</FileHash>
 </SoundBanksInfo>

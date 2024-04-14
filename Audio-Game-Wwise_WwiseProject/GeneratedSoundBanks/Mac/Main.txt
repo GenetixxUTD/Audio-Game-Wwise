@@ -6,6 +6,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1738958647	Stop_RoamingMachineEvents			\Default Work Unit\Stop_RoamingMachineEvents	
 	1752079354	Play_TurretDeathEvent			\Default Work Unit\Play_TurretDeathEvent	
 	1814839449	Play_LevelGasEvent			\Default Work Unit\Play_LevelGasEvent	
+	1830303642	Play_PlayerFootstepsEvent			\Default Work Unit\Play_PlayerFootstepsEvent	
 	2100791062	Play_LevelAirAmienceEvent			\Default Work Unit\Play_LevelAirAmienceEvent	
 	2461339184	Play_LevelFireEvent			\Default Work Unit\Play_LevelFireEvent	
 	3361080125	Stop_PlayerRocketEvent			\Default Work Unit\Stop_PlayerRocketEvent	
@@ -14,20 +15,37 @@ Event	ID	Name			Wwise Object Path	Notes
 	3923112352	Play_PlayerPistolShot			\Default Work Unit\Play_PlayerPistolShot	
 	4221610031	Play_PlayerRocketEvent			\Default Work Unit\Play_PlayerRocketEvent	
 
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3586861854	FootstepsSwitch			\Default Work Unit\FootstepsSwitch	
+
+Switch	ID	Name	Switch Group			Notes
+	803837735	Sand	FootstepsSwitch			
+	2473969246	Metal	FootstepsSwitch			
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	3199966932	RocketPitchRTPC			\Default Work Unit\RocketPitchRTPC	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	40068453	RAWcharged-laser-shot7125-pixabay	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\ImportedAudio\RAWcharged-laser-7125-pixabay_5319FC00.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\RAWcharged-laser-shot7125-pixabay		345520
 	114848322	mgsalert-giannigamefreak	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\mgsalert-giannigamefreak_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\mgsalert-giannigamefreak		318860
+	142852571	sand footstep 2	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\sand footsteps - Krotos Audio\sand footstep 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\footsteps\sand footsteps - Krotos Audio\sand footstep 2		131568
+	405495200	metal footstep 2	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\metal footsteps - Hush Angel\metal footstep 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\footsteps\metal footsteps - Hush Angel\metal footstep 2		43064
 	436270674	airidle5	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\airidle5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment Recordings\Air Ambience\airidle5		1918048
 	436311998	zapsplat_explosion_detonate_blast_designed_002_89754	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\zapsplat_explosion_detonate_blast_designed_002_89754_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\Turret Death\zapsplat_explosion_detonate_blast_designed_002_89754		900484
 	485869477	explosion-80108-pixapit	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\explosion-80108-pixapit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\Roamer Death\explosion-80108-pixapit		433248
 	502066736	large-rocket-engine-86240-pixabay	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\large-rocket-engine-86240-pixabay_661ED83E.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\large-rocket-engine-86240-pixabay		612088
+	502185773	sand footstep 4	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\sand footsteps - Krotos Audio\sand footstep 4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\footsteps\sand footsteps - Krotos Audio\sand footstep 4		108792
+	602326104	metal footstep 4	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\metal footsteps - Hush Angel\metal footstep 4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\footsteps\metal footsteps - Hush Angel\metal footstep 4		43696
+	636117648	metal footstep 5	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\metal footsteps - Hush Angel\metal footstep 5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\footsteps\metal footsteps - Hush Angel\metal footstep 5		49384
 	637810265	explosion-42132-pixapit	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\explosion-42132-pixapit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\Roamer Death\explosion-42132-pixapit		331872
+	670311929	sand footstep 5	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\sand footsteps - Krotos Audio\sand footstep 5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\footsteps\sand footsteps - Krotos Audio\sand footstep 5		114748
 	746300524	RAWcharged-laser-charge7125-pixabay_01	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\ImportedAudio\RAWcharged-laser-7125-pixabay_2EE17AF1.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\RAWcharged-laser-charge7125-pixabay_01		337340
 	762071411	airidle4	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\airidle4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment Recordings\Air Ambience\airidle4		1741920
+	771965703	metal footstep 3	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\metal footsteps - Hush Angel\metal footstep 3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\footsteps\metal footsteps - Hush Angel\metal footstep 3		40540
 	779577029	RAWlaser-zap-90575-pixabay	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\ImportedAudio\RAWlaser-zap-90575-pixabay_CED32EB2.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\RAWlaser-zap-90575-pixabay		90840
+	781107164	sand footstep 3	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\sand footsteps - Krotos Audio\sand footstep 3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\footsteps\sand footsteps - Krotos Audio\sand footstep 3		105816
+	821053783	metal footstep 1	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\metal footsteps - Hush Angel\metal footstep 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\footsteps\metal footsteps - Hush Angel\metal footstep 1		40540
+	835719834	sand footstep 1	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\sand footsteps - Krotos Audio\sand footstep 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\footsteps\sand footsteps - Krotos Audio\sand footstep 1		115916
 	874491271	paperscrunch_RAW	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\paperscrunch_RAW_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment Recordings\paperscrunch_RAW		1890144
 	943649303	RAWlaser-gun-81720-pixabay	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\ImportedAudio\RAWlaser-gun-81720-pixabay_CE194B45.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\RAWlaser-gun-81720-pixabay		200668
 	966336095	zapsplat_explosion_detonate_blast_designed_001_89753	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\zapsplat_explosion_detonate_blast_designed_001_89753_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\Turret Death\zapsplat_explosion_detonate_blast_designed_001_89753		1230324

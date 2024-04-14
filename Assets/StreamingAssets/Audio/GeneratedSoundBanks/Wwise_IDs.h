@@ -18,6 +18,7 @@ namespace AK
         static const AkUniqueID PLAY_LEVELGASEVENT = 1814839449U;
         static const AkUniqueID PLAY_MACHINEALERTEVENT = 1039140651U;
         static const AkUniqueID PLAY_MACHINEMOVEMENT = 3566803906U;
+        static const AkUniqueID PLAY_PLAYERFOOTSTEPSEVENT = 1830303642U;
         static const AkUniqueID PLAY_PLAYERLAUNCHERCHARGE = 125713821U;
         static const AkUniqueID PLAY_PLAYERLAUNCHERSHOT = 3498406285U;
         static const AkUniqueID PLAY_PLAYERPISTOLSHOT = 3923112352U;
@@ -28,6 +29,21 @@ namespace AK
         static const AkUniqueID STOP_PLAYERROCKETEVENT = 3361080125U;
         static const AkUniqueID STOP_ROAMINGMACHINEEVENTS = 1738958647U;
     } // namespace EVENTS
+
+    namespace SWITCHES
+    {
+        namespace FOOTSTEPSSWITCH
+        {
+            static const AkUniqueID GROUP = 3586861854U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID METAL = 2473969246U;
+                static const AkUniqueID SAND = 803837735U;
+            } // namespace SWITCH
+        } // namespace FOOTSTEPSSWITCH
+
+    } // namespace SWITCHES
 
     namespace GAME_PARAMETERS
     {
