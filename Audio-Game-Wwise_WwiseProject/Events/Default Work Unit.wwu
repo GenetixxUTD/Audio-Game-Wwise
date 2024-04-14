@@ -83,6 +83,31 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_PlayerRocketEvent" ID="{E7DC1465-7689-4512-9E6A-497843ECAB76}">
+					<ChildrenList>
+						<Action Name="" ID="{DB96632A-BE50-4491-B7DC-3363922BE2B9}" ShortID="779294584">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="large-rocket-engine-86240-pixabay" ID="{C5FC759D-FA99-498B-9ED1-72D6F8331BCD}" WorkUnitID="{1B55DE8B-2CE8-4A18-ABE3-645A666F02C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_PlayerRocketEvent" ID="{1AE9BCC2-1F44-40F6-B701-9E0B446D2370}">
+					<ChildrenList>
+						<Action Name="" ID="{E5637862-182F-4219-B6BC-3DC72462E87C}" ShortID="871517262">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="large-rocket-engine-86240-pixabay" ID="{C5FC759D-FA99-498B-9ED1-72D6F8331BCD}" WorkUnitID="{1B55DE8B-2CE8-4A18-ABE3-645A666F02C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

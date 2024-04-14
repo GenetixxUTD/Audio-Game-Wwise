@@ -7,6 +7,7 @@
 					<ChildrenList>
 						<Sound Name="RAWcharged-laser-shot7125-pixabay" ID="{FA3D8BB5-FD18-4377-9485-34D95998E56B}" ShortID="1000546597">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -22,6 +23,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ProjectileAtt" ID="{E0761B15-9C34-4C77-A426-FA7CAE2DF77D}" WorkUnitID="{43A9F8B9-5E90-45AE-B328-48A13BE6D173}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21D48565-66FF-4FF2-AC6C-F150C5F4865A}"/>
 								</Reference>
@@ -49,6 +53,7 @@
 						</Sound>
 						<Sound Name="RAWlaser-gun-81720-pixabay" ID="{2990B40E-0CC8-4FDA-9A31-EBC5387C02D1}" ShortID="261872197">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -64,6 +69,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ProjectileAtt" ID="{E0761B15-9C34-4C77-A426-FA7CAE2DF77D}" WorkUnitID="{43A9F8B9-5E90-45AE-B328-48A13BE6D173}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21D48565-66FF-4FF2-AC6C-F150C5F4865A}"/>
 								</Reference>
@@ -91,6 +99,7 @@
 						</Sound>
 						<Sound Name="RAWlaser-zap-90575-pixabay" ID="{D84F57B6-CF35-411A-BF3E-5E325184A637}" ShortID="76360881">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="Pitch" Type="int32">
 									<ModifierList>
 										<ModifierInfo>
@@ -106,6 +115,9 @@
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ProjectileAtt" ID="{E0761B15-9C34-4C77-A426-FA7CAE2DF77D}" WorkUnitID="{43A9F8B9-5E90-45AE-B328-48A13BE6D173}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21D48565-66FF-4FF2-AC6C-F150C5F4865A}"/>
 								</Reference>
@@ -168,6 +180,80 @@
 								<ActiveSource Name="RAWcharged-laser-7125-pixabay" ID="{31878DE7-7810-4C94-8E6D-C714864AB6A1}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="large-rocket-engine-86240-pixabay" ID="{C5FC759D-FA99-498B-9ED1-72D6F8331BCD}" ShortID="174207871">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21D48565-66FF-4FF2-AC6C-F150C5F4865A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E66EE735-4F06-460F-A689-FE8D7ECA3724}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="large-rocket-engine-86240-pixabay" ID="{C6D8F962-A38A-405F-AC6F-5FA6CAB9897A}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.739184296619412"/>
+										<Property Name="TrimEnd" Type="Real64" Value="7.11409328815793"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>large-rocket-engine-86240-pixabay.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="502066736"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{FE38C1BE-8065-48AB-91D5-78BE6423C5A3}" ShortID="827181541">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Pitch"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="RocketPitchRTPC" ID="{D6097A1E-46C0-423D-A25F-C21D8368961D}" WorkUnitID="{AE127827-A388-4EB8-B2EF-E8D09FDC6957}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{89AF14F4-F0C5-41D3-AF9A-C72CED795802}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-1000</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+							<ActiveSourceList>
+								<ActiveSource Name="large-rocket-engine-86240-pixabay" ID="{C6D8F962-A38A-405F-AC6F-5FA6CAB9897A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Environment Recordings" ID="{4D339839-2F0B-42EF-B353-F857D98EEFA5}" ShortID="640347163">
@@ -176,6 +262,11 @@
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">

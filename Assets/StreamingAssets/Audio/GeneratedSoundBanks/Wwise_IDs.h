@@ -23,6 +23,11 @@ namespace AK
         static const AkUniqueID STOP_ROAMINGMACHINEEVENTS = 1738958647U;
     } // namespace EVENTS
 
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID ROCKETPITCHRTPC = 3199966932U;
+    } // namespace GAME_PARAMETERS
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;

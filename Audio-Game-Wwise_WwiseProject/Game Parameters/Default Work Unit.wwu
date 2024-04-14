@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{AE127827-A388-4EB8-B2EF-E8D09FDC6957}" SchemaVersion="110">
 	<GameParameters>
-		<WorkUnit Name="Default Work Unit" ID="{AE127827-A388-4EB8-B2EF-E8D09FDC6957}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{AE127827-A388-4EB8-B2EF-E8D09FDC6957}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RocketPitchRTPC" ID="{D6097A1E-46C0-423D-A25F-C21D8368961D}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
 	</GameParameters>
 </WwiseDocument>

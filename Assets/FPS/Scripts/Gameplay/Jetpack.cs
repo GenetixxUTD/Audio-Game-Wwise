@@ -50,6 +50,7 @@ namespace Unity.FPS.Gameplay
         float m_LastTimeOfUse;
 
         // stored ratio for jetpack resource (1 is full, 0 is empty)
+        [SerializeField]
         public float CurrentFillRatio { get; private set; }
         public bool IsJetpackUnlocked { get; private set; }
 
@@ -157,6 +158,9 @@ namespace Unity.FPS.Gameplay
                     isEventPlaying = false;
                 }
             }
+
+            AkSoundEngine.SetRTPCValue("RocketPitchRTPC", CurrentFillRatio, this.gameObject);
+
         }
 
         public bool TryUnlock()

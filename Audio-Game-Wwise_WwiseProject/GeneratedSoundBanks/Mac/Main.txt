@@ -8,6 +8,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	3923112352	Play_PlayerPistolShot			\Default Work Unit\Play_PlayerPistolShot	
 	4221610031	Play_PlayerRocketEvent			\Default Work Unit\Play_PlayerRocketEvent	
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3199966932	RocketPitchRTPC			\Default Work Unit\RocketPitchRTPC	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	40068453	RAWcharged-laser-shot7125-pixabay	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\ImportedAudio\RAWcharged-laser-7125-pixabay_5319FC00.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\RAWcharged-laser-shot7125-pixabay		345520
 	502066736	large-rocket-engine-86240-pixabay	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Mac\SFX\large-rocket-engine-86240-pixabay_E010CFDC.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\large-rocket-engine-86240-pixabay		612088
