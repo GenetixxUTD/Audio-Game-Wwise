@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{EE4DB3D4-3085-C221-4E8A-022458868333}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{1592A5D1-26A6-2CE0-2D12-7CF68D8ABBAD}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -22,6 +22,7 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 			<GameParameters>
+				<GameParameter Id="438351637" Name="MusicVolumeRTPC"/>
 				<GameParameter Id="3199966932" Name="RocketPitchRTPC"/>
 			</GameParameters>
 			<StateGroups>
@@ -42,7 +43,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{6CEA72B1-D5D5-91DA-3140-DB8CFB99FD95}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{B1D7779C-3130-4C08-BA6A-58AECE820EF0}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -330,6 +331,7 @@
 				<Event Id="1738958647" Name="Stop_RoamingMachineEvents" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 			<GameParameters>
+				<GameParameter Id="438351637" Name="MusicVolumeRTPC"/>
 				<GameParameter Id="3199966932" Name="RocketPitchRTPC"/>
 			</GameParameters>
 			<StateGroups>
@@ -351,5 +353,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4312AFC8-0457-8A4C-1197-71C9E70B1FA9}</FileHash>
+	<FileHash>{8E54AC41-A823-03B8-7315-8C349A8FB45A}</FileHash>
 </SoundBanksInfo>

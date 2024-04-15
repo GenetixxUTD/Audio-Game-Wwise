@@ -148,7 +148,8 @@ namespace Unity.FPS.Gameplay
 
         void Start()
         {
-            AkSoundEngine.SetState("GameplayState", "Exploration");
+            AkSoundEngine.SetState("GameplayState", "Exploration"); 
+            AkSoundEngine.SetRTPCValue("MusicVolumeRTPC", 0);
             levelMusicEvent.Post(this.gameObject);
 
             // fetch components on the same gameObject
@@ -230,7 +231,7 @@ namespace Unity.FPS.Gameplay
         void OnDie()
         {
             IsDead = true;
-
+            AkSoundEngine.SetRTPCValue("MusicVolumeRTPC", -90, this.gameObject);
             // Tell the weapons manager to switch to a non-existing weapon in order to lower the weapon
             m_WeaponsManager.SwitchToWeaponIndex(-1, true);
 

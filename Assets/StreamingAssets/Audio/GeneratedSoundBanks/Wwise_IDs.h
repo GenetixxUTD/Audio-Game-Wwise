@@ -71,6 +71,7 @@ namespace AK
 
     namespace GAME_PARAMETERS
     {
+        static const AkUniqueID MUSICVOLUMERTPC = 438351637U;
         static const AkUniqueID ROCKETPITCHRTPC = 3199966932U;
     } // namespace GAME_PARAMETERS
 

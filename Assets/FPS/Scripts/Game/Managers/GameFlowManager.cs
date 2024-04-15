@@ -88,6 +88,7 @@ namespace Unity.FPS.Game
             }
             else
             {
+                AkSoundEngine.SetRTPCValue("MusicVolumeRTPC", -30);
                 m_SceneToLoad = LoseSceneName;
                 m_TimeLoadEndGameScene = Time.time + EndSceneLoadDelay;
             }

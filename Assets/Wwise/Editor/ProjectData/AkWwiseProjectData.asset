@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f4b671e4529d304798f1985917140ce5
     GuidInternal: 
-    m_lastTime: -8584884601814775808
+    m_lastTime: -8584884505374775808
     List:
     - name: Main
       guid: fdf66c1abf433d4ab57deaebc3e11f14
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 414441dba3e52d46949d8953efa62f98
     GuidInternal: 
-    m_lastTime: -8584884595614775808
+    m_lastTime: -8584884514474775808
     List:
     - name: Play_LevelAirAmienceEvent
       guid: ef6ef48e76b60e4c9097e59adca2b27a
@@ -145,6 +145,23 @@ MonoBehaviour:
         guid: ac2a7ff860a868429a8e1e39567dbe41
       Path: Events\Default Work Unit\Play_LevelGasEvent
       maxAttenuation: 40
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_LevelMusicEvent
+      guid: 5f1f41bf337bde4fba0e041fa8efe4ee
+      id: 2755160911
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 414441dba3e52d46949d8953efa62f98
+      - ElementName: Play_LevelMusicEvent
+        ObjectType: 3
+        guid: 5f1f41bf337bde4fba0e041fa8efe4ee
+      Path: Events\Default Work Unit\Play_LevelMusicEvent
+      maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
     - name: Play_MachineAlertEvent
@@ -198,6 +215,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.66612244
       minDuration: 0.66612244
+    - name: Play_MenuScreenshotEvent
+      guid: 3c40760aa919ad4988b4a83afd80d282
+      id: 2509040845
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 414441dba3e52d46949d8953efa62f98
+      - ElementName: Play_MenuScreenshotEvent
+        ObjectType: 3
+        guid: 3c40760aa919ad4988b4a83afd80d282
+      Path: Events\Default Work Unit\Play_MenuScreenshotEvent
+      maxAttenuation: 0
+      maxDuration: 0.33959183
+      minDuration: 0.33959183
     - name: Play_PlayerCollectableEvent
       guid: 7d88f2d9ad92fe4fb9f9658660f5e8ac
       id: 2794388823
@@ -465,8 +499,22 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 277812ae88a3b84eb2efe8d09fdc6957
     GuidInternal: 
-    m_lastTime: -8584885423734775808
+    m_lastTime: -8584884499994775808
     List:
+    - name: MusicVolumeRTPC
+      guid: 7b89c8aeda782e4bba512302b345aea7
+      id: 438351637
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 277812ae88a3b84eb2efe8d09fdc6957
+      - ElementName: MusicVolumeRTPC
+        ObjectType: 13
+        guid: 7b89c8aeda782e4bba512302b345aea7
+      Path: Game Parameters\Default Work Unit\MusicVolumeRTPC
     - name: RocketPitchRTPC
       guid: 1e7a09d6c0463d42a25fc21d8368961d
       id: 3199966932
@@ -493,8 +541,74 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: b0d56212401ed447ba50e795fa76f56b
     GuidInternal: 
-    m_lastTime: -8584911798174775808
-    List: []
+    m_lastTime: -8584884535014775808
+    List:
+    - name: GameplayState
+      guid: c41d28811939d74b8f518f556aff6cc9
+      id: 778922764
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b0d56212401ed447ba50e795fa76f56b
+      - ElementName: GameplayState
+        ObjectType: 9
+        guid: c41d28811939d74b8f518f556aff6cc9
+      Path: States\Default Work Unit\GameplayState
+      values:
+      - name: Combat
+        guid: 0689deba4a39b24dbf9fa51410b92930
+        id: 2764240573
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b0d56212401ed447ba50e795fa76f56b
+        - ElementName: GameplayState
+          ObjectType: 9
+          guid: c41d28811939d74b8f518f556aff6cc9
+        - ElementName: Combat
+          ObjectType: 8
+          guid: 0689deba4a39b24dbf9fa51410b92930
+      - name: Exploration
+        guid: ef2b1cb53cd1384dbd07b80d4e862e17
+        id: 2582085496
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b0d56212401ed447ba50e795fa76f56b
+        - ElementName: GameplayState
+          ObjectType: 9
+          guid: c41d28811939d74b8f518f556aff6cc9
+        - ElementName: Exploration
+          ObjectType: 8
+          guid: ef2b1cb53cd1384dbd07b80d4e862e17
+      - name: None
+        guid: e23b579de676cb4a987f0850c55f3cb1
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: b0d56212401ed447ba50e795fa76f56b
+        - ElementName: GameplayState
+          ObjectType: 9
+          guid: c41d28811939d74b8f518f556aff6cc9
+        - ElementName: None
+          ObjectType: 8
+          guid: e23b579de676cb4a987f0850c55f3cb1
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:

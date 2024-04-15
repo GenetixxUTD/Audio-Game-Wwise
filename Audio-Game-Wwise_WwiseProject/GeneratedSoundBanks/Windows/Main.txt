@@ -43,6 +43,7 @@ Custom State	ID	Name	State Group	Owner		Notes
 	610318781	Combat	GameplayState	\Interactive Music Hierarchy\Default Work Unit\Game Music\Dynamic Music\Exploration Theme\1_ For Better Tomorrow - 120bpm - EXPLORATION LOOP		
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
+	438351637	MusicVolumeRTPC			\Default Work Unit\MusicVolumeRTPC	
 	3199966932	RocketPitchRTPC			\Default Work Unit\RocketPitchRTPC	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
