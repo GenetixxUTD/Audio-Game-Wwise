@@ -5922,6 +5922,18 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 00bfb86f3a05841429f1e2143f4ff7d7,
         type: 2}
+    - target: {fileID: 1567544279954943050, guid: c996b53e9f849234393d1e90f68d1679,
+        type: 3}
+      propertyPath: stopMusicEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 594ee8f79e95e844889e2f488ede4185,
+        type: 2}
+    - target: {fileID: 1567544279954943050, guid: c996b53e9f849234393d1e90f68d1679,
+        type: 3}
+      propertyPath: startMusicEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 1d53d0c6d0a5f0f4fbf56456f96249a9,
+        type: 2}
     - target: {fileID: 1826386070391163904, guid: c996b53e9f849234393d1e90f68d1679,
         type: 3}
       propertyPath: m_textInfo.lineCount

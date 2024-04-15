@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f4b671e4529d304798f1985917140ce5
     GuidInternal: 
-    m_lastTime: -8584884505374775808
+    m_lastTime: -8584884482514775808
     List:
     - name: Main
       guid: fdf66c1abf433d4ab57deaebc3e11f14
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 414441dba3e52d46949d8953efa62f98
     GuidInternal: 
-    m_lastTime: -8584884514474775808
+    m_lastTime: -8584884482514775808
     List:
     - name: Play_LevelAirAmienceEvent
       guid: ef6ef48e76b60e4c9097e59adca2b27a
@@ -436,6 +436,23 @@ MonoBehaviour:
       maxAttenuation: 75
       maxDuration: 7.40285
       minDuration: 4.058952
+    - name: Stop_LevelMusicEvent
+      guid: 94eddf6e8da88041990ba731bd59ecde
+      id: 1620677413
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 414441dba3e52d46949d8953efa62f98
+      - ElementName: Stop_LevelMusicEvent
+        ObjectType: 3
+        guid: 94eddf6e8da88041990ba731bd59ecde
+      Path: Events\Default Work Unit\Stop_LevelMusicEvent
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Stop_PlayerRocketEvent
       guid: c2bce91a441ff640b7019e0b446d2370
       id: 3361080125

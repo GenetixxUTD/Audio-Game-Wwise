@@ -6,6 +6,11 @@
 				<MusicSwitchContainer Name="Dynamic Music" ID="{2593D23E-6B64-40FB-9B07-27D91AD58BB0}" ShortID="15882723">
 					<PropertyList>
 						<Property Name="ContinuePlay" Type="bool" Value="False"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-10</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">

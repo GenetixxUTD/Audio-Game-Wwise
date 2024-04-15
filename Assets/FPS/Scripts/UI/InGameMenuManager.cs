@@ -23,7 +23,7 @@ namespace Unity.FPS.UI
         [Tooltip("Toggle component for invincibility")]
         public Toggle InvincibilityToggle;
 
-        [Tooltip("Toggle component for framerate display")]
+        [Tooltip("Toggle component for framerate display")]z
         public Toggle FramerateToggle;
 
         [Tooltip("GameObject for the controls")]
@@ -33,8 +33,8 @@ namespace Unity.FPS.UI
         Health m_PlayerHealth;
         FramerateCounter m_FramerateCounter;
 
-        public AK.Wwise.Event buttonEvent; 
-         
+        public AK.Wwise.Event buttonEvent;
+
         void Start()
         {
             m_PlayerInputsHandler = FindObjectOfType<PlayerInputHandler>();

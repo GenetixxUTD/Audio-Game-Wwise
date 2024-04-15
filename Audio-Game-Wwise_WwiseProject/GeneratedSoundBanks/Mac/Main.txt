@@ -3,6 +3,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	139308969	Play_PlayerShotgunShot			\Default Work Unit\Play_PlayerShotgunShot	
 	510078518	Play_RoamerDeathEvent			\Default Work Unit\Play_RoamerDeathEvent	
 	1039140651	Play_MachineAlertEvent			\Default Work Unit\Play_MachineAlertEvent	
+	1620677413	Stop_LevelMusicEvent			\Default Work Unit\Stop_LevelMusicEvent	
 	1738958647	Stop_RoamingMachineEvents			\Default Work Unit\Stop_RoamingMachineEvents	
 	1752079354	Play_TurretDeathEvent			\Default Work Unit\Play_TurretDeathEvent	
 	1814839449	Play_LevelGasEvent			\Default Work Unit\Play_LevelGasEvent	

@@ -43,7 +43,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{B1D7779C-3130-4C08-BA6A-58AECE820EF0}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{A7CF08D0-B248-CF4F-3F63-91FDA585DDB7}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -326,6 +326,7 @@
 						<MediaRef Id="966336095"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1620677413" Name="Stop_LevelMusicEvent" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="3361080125" Name="Stop_PlayerRocketEvent" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="4180412160" Name="Stop_PlayerWeaponRechargeEvent" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1738958647" Name="Stop_RoamingMachineEvents" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -353,5 +354,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E67FFF43-381C-A08A-9C2C-F4C63D197B67}</FileHash>
+	<FileHash>{15B6C132-EBDA-BD1E-5855-BB1452A16272}</FileHash>
 </SoundBanksInfo>

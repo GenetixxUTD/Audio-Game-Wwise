@@ -3123,6 +3123,18 @@ MonoBehaviour:
   InvincibilityToggle: {fileID: 4607517921765586557}
   FramerateToggle: {fileID: 1296915883990735889}
   ControlImage: {fileID: 5500535886939863649}
+  buttonEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  startMusicEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  stopMusicEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &7296051738793191102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3138,6 +3150,10 @@ MonoBehaviour:
   ScreenshotPanel: {fileID: 5510144977734701555}
   FileName: Screenshot
   PreviewImage: {fileID: 1316288227226849327}
+  screenshotEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &8824232397243618537
 GameObject:
   m_ObjectHideFlags: 0
@@ -3274,7 +3290,9 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 2
   m_TargetDisplay: 0

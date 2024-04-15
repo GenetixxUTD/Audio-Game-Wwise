@@ -276,6 +276,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Stop_LevelMusicEvent" ID="{6EDFED94-A88D-4180-990B-A731BD59ECDE}">
+					<ChildrenList>
+						<Action Name="" ID="{E1111715-EB89-4EC8-9E10-0E589BDA4F6C}" ShortID="658371431">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dynamic Music" ID="{2593D23E-6B64-40FB-9B07-27D91AD58BB0}" WorkUnitID="{816219FD-6357-481A-8601-A165561AE7B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
