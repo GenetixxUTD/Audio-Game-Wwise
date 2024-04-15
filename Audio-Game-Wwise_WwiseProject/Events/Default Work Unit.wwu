@@ -243,6 +243,28 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_MenuButtonEvent" ID="{19A49F60-6914-4E9E-A797-3C6AB929D8E4}">
+					<ChildrenList>
+						<Action Name="" ID="{ABF4968B-2C4C-4617-A6AA-1739048772A1}" ShortID="471687917">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="button-124476-universfield-pixabay" ID="{2BFF9D7D-073A-469B-8404-678B98403CAF}" WorkUnitID="{1B55DE8B-2CE8-4A18-ABE3-645A666F02C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MenuScreenshotEvent" ID="{0A76403C-19A9-49AD-88B4-A83AFD80D282}">
+					<ChildrenList>
+						<Action Name="" ID="{280BF631-47BC-4DB7-8A6C-5EF6FDFEA6A8}" ShortID="308882032">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="camera-shutter-6305-pixabay" ID="{B7D8C979-A689-44CF-98A6-3F397FA12CE1}" WorkUnitID="{1B55DE8B-2CE8-4A18-ABE3-645A666F02C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -26,6 +26,8 @@ namespace Unity.FPS.UI
         bool m_ScreenshotTaken;
         bool m_IsFeatureDisable;
 
+        public AK.Wwise.Event screenshotEvent;
+
         string GetPath() => k_ScreenshotPath + FileName + ".png";
 
         const string k_ScreenshotPath = "Assets/";
@@ -82,6 +84,7 @@ namespace Unity.FPS.UI
         public void OnTakeScreenshotButtonPressed()
         {
             m_TakeScreenshot = true;
+            screenshotEvent.Post(this.gameObject);
         }
 
         void LoadScreenshot()

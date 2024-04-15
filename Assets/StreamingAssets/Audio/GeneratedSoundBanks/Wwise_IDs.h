@@ -18,6 +18,8 @@ namespace AK
         static const AkUniqueID PLAY_LEVELGASEVENT = 1814839449U;
         static const AkUniqueID PLAY_MACHINEALERTEVENT = 1039140651U;
         static const AkUniqueID PLAY_MACHINEMOVEMENT = 3566803906U;
+        static const AkUniqueID PLAY_MENUBUTTONEVENT = 2472310029U;
+        static const AkUniqueID PLAY_MENUSCREENSHOTEVENT = 2509040845U;
         static const AkUniqueID PLAY_PLAYERCOLLECTABLEEVENT = 2794388823U;
         static const AkUniqueID PLAY_PLAYERFOOTSTEPSEVENT = 1830303642U;
         static const AkUniqueID PLAY_PLAYERHEALEVENT = 3263331757U;

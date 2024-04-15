@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f4b671e4529d304798f1985917140ce5
     GuidInternal: 
-    m_lastTime: -8584884628274775808
+    m_lastTime: -8584884601814775808
     List:
     - name: Main
       guid: fdf66c1abf433d4ab57deaebc3e11f14
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 414441dba3e52d46949d8953efa62f98
     GuidInternal: 
-    m_lastTime: -8584884628274775808
+    m_lastTime: -8584884595614775808
     List:
     - name: Play_LevelAirAmienceEvent
       guid: ef6ef48e76b60e4c9097e59adca2b27a
@@ -181,6 +181,40 @@ MonoBehaviour:
       maxAttenuation: 75
       maxDuration: -1
       minDuration: -1
+    - name: Play_MenuButtonEvent
+      guid: 609fa41914699e4ea7973c6ab929d8e4
+      id: 2472310029
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 414441dba3e52d46949d8953efa62f98
+      - ElementName: Play_MenuButtonEvent
+        ObjectType: 3
+        guid: 609fa41914699e4ea7973c6ab929d8e4
+      Path: Events\Default Work Unit\Play_MenuButtonEvent
+      maxAttenuation: 0
+      maxDuration: 0.66612244
+      minDuration: 0.66612244
+    - name: Play_PlayerCollectableEvent
+      guid: 7d88f2d9ad92fe4fb9f9658660f5e8ac
+      id: 2794388823
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 414441dba3e52d46949d8953efa62f98
+      - ElementName: Play_PlayerCollectableEvent
+        ObjectType: 3
+        guid: 7d88f2d9ad92fe4fb9f9658660f5e8ac
+      Path: Events\Default Work Unit\Play_PlayerCollectableEvent
+      maxAttenuation: 0
+      maxDuration: 4.056
+      minDuration: 4.056
     - name: Play_PlayerFootstepsEvent
       guid: 05dd5123a0b19e4ba9f3dbe0e51b2727
       id: 1830303642

@@ -33,6 +33,8 @@ namespace Unity.FPS.UI
         Health m_PlayerHealth;
         FramerateCounter m_FramerateCounter;
 
+        public AK.Wwise.Event buttonEvent; 
+         
         void Start()
         {
             m_PlayerInputsHandler = FindObjectOfType<PlayerInputHandler>();
@@ -81,6 +83,7 @@ namespace Unity.FPS.UI
                 if (ControlImage.activeSelf)
                 {
                     ControlImage.SetActive(false);
+                    buttonEvent.Post(this.gameObject);
                     return;
                 }
 
@@ -134,21 +137,25 @@ namespace Unity.FPS.UI
         void OnShadowsChanged(bool newValue)
         {
             QualitySettings.shadows = newValue ? ShadowQuality.All : ShadowQuality.Disable;
+            buttonEvent.Post(this.gameObject);
         }
 
         void OnInvincibilityChanged(bool newValue)
         {
             m_PlayerHealth.Invincible = newValue;
+            buttonEvent.Post(this.gameObject);
         }
 
         void OnFramerateCounterChanged(bool newValue)
         {
             m_FramerateCounter.UIText.gameObject.SetActive(newValue);
+            buttonEvent.Post(this.gameObject);
         }
 
         public void OnShowControlButtonClicked(bool show)
         {
             ControlImage.SetActive(show);
+            buttonEvent.Post(this.gameObject);
         }
     }
 }

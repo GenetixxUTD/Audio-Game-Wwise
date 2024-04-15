@@ -5844,6 +5844,12 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 789319387739042073, guid: c996b53e9f849234393d1e90f68d1679,
+        type: 3}
+      propertyPath: screenshotEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 1054478b5d3353e439b96c7ba6d4a030,
+        type: 2}
     - target: {fileID: 1315839542190839937, guid: c996b53e9f849234393d1e90f68d1679,
         type: 3}
       propertyPath: m_RootOrder
@@ -5904,6 +5910,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
+    - target: {fileID: 1567544279954943050, guid: c996b53e9f849234393d1e90f68d1679,
+        type: 3}
+      propertyPath: buttonEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 00bfb86f3a05841429f1e2143f4ff7d7,
+        type: 2}
     - target: {fileID: 1826386070391163904, guid: c996b53e9f849234393d1e90f68d1679,
         type: 3}
       propertyPath: m_textInfo.lineCount

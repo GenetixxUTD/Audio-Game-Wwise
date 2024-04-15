@@ -33,7 +33,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{DD65A795-9F64-52CB-ED03-35F247EF5721}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{3E2010D3-1FF5-4185-D97B-318668B7C8E4}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -56,6 +56,10 @@
 				<File Id="182189801" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>halo-infinite-shield-recharge-sound.wav</ShortName>
 					<CachePath>SFX/halo-infinite-shield-recharge-sound_21C317C3.wem</CachePath>
+				</File>
+				<File Id="361438317" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>button-124476-universfield-pixabay.wav</ShortName>
+					<CachePath>SFX/button-124476-universfield-pixabay_654B91E7.wem</CachePath>
 				</File>
 				<File Id="405495200" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>metal footsteps - Hush Angel\metal footstep 2.wav</ShortName>
@@ -145,6 +149,10 @@
 					<ShortName>aircompressor_RAW.WAV</ShortName>
 					<CachePath>SFX/aircompressor_RAW_C5579977.wem</CachePath>
 				</File>
+				<File Id="996106148" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>camera-shutter-6305-pixabay.wav</ShortName>
+					<CachePath>SFX/camera-shutter-6305-pixabay_10C4C929.wem</CachePath>
+				</File>
 				<File Id="1000115981" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>duct-tape-3-183995-floraphonic-pixabay.wav</ShortName>
 					<CachePath>SFX/duct-tape-3-183995-floraphonic-pixabay_10C4C929.wem</CachePath>
@@ -179,6 +187,16 @@
 				<Event Id="3566803906" Name="Play_MachineMovement" MaxAttenuation="75" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="967681174"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2472310029" Name="Play_MenuButtonEvent" DurationType="OneShot" DurationMin="0.66612244" DurationMax="0.66612244">
+					<MediaRefs>
+						<MediaRef Id="361438317"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2509040845" Name="Play_MenuScreenshotEvent" DurationType="OneShot" DurationMin="0.33959183" DurationMax="0.33959183">
+					<MediaRefs>
+						<MediaRef Id="996106148"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2794388823" Name="Play_PlayerCollectableEvent" DurationType="OneShot" DurationMin="4.056" DurationMax="4.056">
@@ -279,5 +297,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EE6B5332-1228-105F-396C-CBE58E346890}</FileHash>
+	<FileHash>{63C5CB75-0395-C703-46BC-5C3BFE3DB291}</FileHash>
 </SoundBanksInfo>
