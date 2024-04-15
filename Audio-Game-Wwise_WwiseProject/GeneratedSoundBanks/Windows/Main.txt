@@ -9,6 +9,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1830303642	Play_PlayerFootstepsEvent			\Default Work Unit\Play_PlayerFootstepsEvent	
 	2100791062	Play_LevelAirAmienceEvent			\Default Work Unit\Play_LevelAirAmienceEvent	
 	2461339184	Play_LevelFireEvent			\Default Work Unit\Play_LevelFireEvent	
+	2794388823	Play_PlayerCollectableEvent			\Default Work Unit\Play_PlayerCollectableEvent	
 	2976510024	Play_PlayerWeaponDepletedEvent			\Default Work Unit\Play_PlayerWeaponDepletedEvent	
 	3155158054	Play_PlayerWeaponRechargeEvent			\Default Work Unit\Play_PlayerWeaponRechargeEvent	
 	3263331757	Play_PlayerHealEvent			\Default Work Unit\Play_PlayerHealEvent	
@@ -50,6 +51,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	771965703	metal footstep 3	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\metal footsteps - Hush Angel\metal footstep 3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\footsteps\metal footsteps - Hush Angel\metal footstep 3		40540
 	779577029	RAWlaser-zap-90575-pixabay	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\ImportedAudio\RAWlaser-zap-90575-pixabay_CED32EB2.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\RAWlaser-zap-90575-pixabay		90840
 	781107164	sand footstep 3	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\sand footsteps - Krotos Audio\sand footstep 3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\footsteps\sand footsteps - Krotos Audio\sand footstep 3		105816
+	781963465	success_bell-6776-pixabay	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\success_bell-6776-pixabay_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\success_bell-6776-pixabay		389472
 	821053783	metal footstep 1	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\metal footsteps - Hush Angel\metal footstep 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\footsteps\metal footsteps - Hush Angel\metal footstep 1		40540
 	835719834	sand footstep 1	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\sand footsteps - Krotos Audio\sand footstep 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\footsteps\sand footsteps - Krotos Audio\sand footstep 1		115916
 	874491271	paperscrunch_RAW	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\paperscrunch_RAW_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment Recordings\paperscrunch_RAW		1890144

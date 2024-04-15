@@ -232,6 +232,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_PlayerCollectableEvent" ID="{D9F2887D-92AD-4FFE-B9F9-658660F5E8AC}">
+					<ChildrenList>
+						<Action Name="" ID="{F8087DB0-1F2F-4782-9029-F2F2DCD2DDF9}" ShortID="788973300">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="success_bell-6776-pixabay" ID="{B29685A5-D080-4A6F-AC79-F5C43D955D21}" WorkUnitID="{1B55DE8B-2CE8-4A18-ABE3-645A666F02C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -33,7 +33,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{13C2E3E8-B334-233A-7D11-AC5B33E6FE89}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{DD65A795-9F64-52CB-ED03-35F247EF5721}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -117,6 +117,10 @@
 					<ShortName>sand footsteps - Krotos Audio\sand footstep 3.wav</ShortName>
 					<CachePath>SFX/sand footsteps - Krotos Audio/sand footstep 3_10C4C929.wem</CachePath>
 				</File>
+				<File Id="781963465" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>success_bell-6776-pixabay.wav</ShortName>
+					<CachePath>SFX/success_bell-6776-pixabay_10C4C929.wem</CachePath>
+				</File>
 				<File Id="821053783" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>metal footsteps - Hush Angel\metal footstep 1.wav</ShortName>
 					<CachePath>SFX/metal footsteps - Hush Angel/metal footstep 1_10C4C929.wem</CachePath>
@@ -175,6 +179,11 @@
 				<Event Id="3566803906" Name="Play_MachineMovement" MaxAttenuation="75" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="967681174"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2794388823" Name="Play_PlayerCollectableEvent" DurationType="OneShot" DurationMin="4.056" DurationMax="4.056">
+					<MediaRefs>
+						<MediaRef Id="781963465"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1830303642" Name="Play_PlayerFootstepsEvent" DurationType="OneShot" DurationMin="0.19882318" DurationMax="0.7254674">
@@ -270,5 +279,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D4B28369-03E6-8193-2DD0-2A38FC0C421B}</FileHash>
+	<FileHash>{BDEC1E73-D357-119D-CE25-7F2B3610CF0B}</FileHash>
 </SoundBanksInfo>

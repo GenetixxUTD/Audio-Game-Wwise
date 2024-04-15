@@ -24,6 +24,7 @@
 						<ObjectRef Name="Play_PlayerHealEvent" ID="{8735CDFC-3B78-4E1F-86F5-E20A97AF5337}" WorkUnitID="{DB414441-E5A3-462D-949D-8953EFA62F98}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_RoamerDeathEvent" ID="{022C8673-4D4F-4EFF-90E4-A13857BD13C5}" WorkUnitID="{DB414441-E5A3-462D-949D-8953EFA62F98}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_TurretDeathEvent" ID="{DDF0CEDB-E73A-4F76-933F-6D3DB6C22AAD}" WorkUnitID="{DB414441-E5A3-462D-949D-8953EFA62F98}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_PlayerCollectableEvent" ID="{D9F2887D-92AD-4FFE-B9F9-658660F5E8AC}" WorkUnitID="{DB414441-E5A3-462D-949D-8953EFA62F98}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

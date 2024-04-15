@@ -10,6 +10,7 @@
 
             if (jetpack.TryUnlock())
             {
+                pickupEvent.Post(this.gameObject);
                 PlayPickupFeedback();
                 Destroy(gameObject);
             }
