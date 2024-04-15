@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{9CA96DE5-18A7-857F-D789-738859FE0357}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{EE4DB3D4-3085-C221-4E8A-022458868333}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -24,6 +24,15 @@
 			<GameParameters>
 				<GameParameter Id="3199966932" Name="RocketPitchRTPC"/>
 			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="778922764" Name="GameplayState">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="2582085496" Name="Exploration"/>
+						<State Id="2764240573" Name="Combat"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 			<SwitchGroups>
 				<SwitchGroup Id="3586861854" Name="FootstepsSwitch">
 					<Switches>
@@ -33,7 +42,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{3E2010D3-1FF5-4185-D97B-318668B7C8E4}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{6CEA72B1-D5D5-91DA-3140-DB8CFB99FD95}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -57,9 +66,17 @@
 					<ShortName>halo-infinite-shield-recharge-sound.wav</ShortName>
 					<CachePath>SFX/halo-infinite-shield-recharge-sound_21C317C3.wem</CachePath>
 				</File>
+				<File Id="270003338" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>1. For Better Tomorrow - 120bpm - COMBAT LOOP.wav</ShortName>
+					<CachePath>SFX/1. For Better Tomorrow - 120bpm - COMBAT LOOP_D79FB2B7.wem</CachePath>
+				</File>
 				<File Id="361438317" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>button-124476-universfield-pixabay.wav</ShortName>
 					<CachePath>SFX/button-124476-universfield-pixabay_654B91E7.wem</CachePath>
+				</File>
+				<File Id="402030317" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>1. For Better Tomorrow - 120bpm - TRANSITION.wav</ShortName>
+					<CachePath>SFX/1. For Better Tomorrow - 120bpm - TRANSITION_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="405495200" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>metal footsteps - Hush Angel\metal footstep 2.wav</ShortName>
@@ -88,6 +105,10 @@
 				<File Id="602326104" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>metal footsteps - Hush Angel\metal footstep 4.wav</ShortName>
 					<CachePath>SFX/metal footsteps - Hush Angel/metal footstep 4_10C4C929.wem</CachePath>
+				</File>
+				<File Id="611497565" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>1. For Better Tomorrow - 120bpm - EXPLORATION LOOP.wav</ShortName>
+					<CachePath>SFX/1. For Better Tomorrow - 120bpm - EXPLORATION LOOP_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="636117648" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>metal footsteps - Hush Angel\metal footstep 5.wav</ShortName>
@@ -124,6 +145,10 @@
 				<File Id="781963465" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>success_bell-6776-pixabay.wav</ShortName>
 					<CachePath>SFX/success_bell-6776-pixabay_10C4C929.wem</CachePath>
+				</File>
+				<File Id="784325308" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>1. For Better Tomorrow - 120bpm - TRANSITION Com - Exp.wav</ShortName>
+					<CachePath>SFX/1. For Better Tomorrow - 120bpm - TRANSITION Com - Exp_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="821053783" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>metal footsteps - Hush Angel\metal footstep 1.wav</ShortName>
@@ -178,6 +203,26 @@
 					<MediaRefs>
 						<MediaRef Id="1004968468"/>
 					</MediaRefs>
+				</Event>
+				<Event Id="2755160911" Name="Play_LevelMusicEvent" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="402030317"/>
+						<MediaRef Id="784325308"/>
+					</MediaRefs>
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="778922764" Id="2764240573"/>
+							<MediaRefs>
+								<MediaRef Id="270003338"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="State" GroupId="778922764" Id="2582085496"/>
+							<MediaRefs>
+								<MediaRef Id="611497565"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="1039140651" Name="Play_MachineAlertEvent" MaxAttenuation="75" DurationType="OneShot" DurationMin="1.6602292" DurationMax="1.6602292">
 					<MediaRefs>
@@ -287,6 +332,15 @@
 			<GameParameters>
 				<GameParameter Id="3199966932" Name="RocketPitchRTPC"/>
 			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="778922764" Name="GameplayState">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="2582085496" Name="Exploration"/>
+						<State Id="2764240573" Name="Combat"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 			<SwitchGroups>
 				<SwitchGroup Id="3586861854" Name="FootstepsSwitch">
 					<Switches>
@@ -297,5 +351,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{1CBE3776-624D-82BD-E296-65592F68E11C}</FileHash>
+	<FileHash>{4312AFC8-0457-8A4C-1197-71C9E70B1FA9}</FileHash>
 </SoundBanksInfo>

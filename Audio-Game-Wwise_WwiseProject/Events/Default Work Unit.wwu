@@ -265,6 +265,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_LevelMusicEvent" ID="{BF411F5F-7B33-4FDE-BA0E-041FA8EFE4EE}">
+					<ChildrenList>
+						<Action Name="" ID="{9E154162-1878-4267-8938-2EC978788A98}" ShortID="844920555">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dynamic Music" ID="{2593D23E-6B64-40FB-9B07-27D91AD58BB0}" WorkUnitID="{816219FD-6357-481A-8601-A165561AE7B1}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

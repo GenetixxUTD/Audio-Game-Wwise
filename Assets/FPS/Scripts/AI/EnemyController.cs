@@ -119,12 +119,16 @@ namespace Unity.FPS.AI
         WeaponController[] m_Weapons;
         NavigationModule m_NavigationModule;
 
+        private bool inCombat;
+
         public AK.Wwise.Event shootEvent;
         public AK.Wwise.Event alertEvent;
         public AK.Wwise.Event deathEvent;
 
         void Start()
         {
+            inCombat = false; 
+
             m_EnemyManager = FindObjectOfType<EnemyManager>();
             DebugUtility.HandleErrorIfNullFindObject<EnemyManager, EnemyController>(m_EnemyManager, this);
 
@@ -219,6 +223,11 @@ namespace Unity.FPS.AI
             }
 
             m_WasDamagedThisFrame = false;
+
+            if(inCombat)
+            {
+                AkSoundEngine.SetState("GameplayState", "Combat");
+            }    
         }
 
         void EnsureIsWithinLevelBounds()
@@ -234,7 +243,8 @@ namespace Unity.FPS.AI
         void OnLostTarget()
         {
             onLostTarget.Invoke();
-
+            inCombat = false;
+            AkSoundEngine.SetState("GameplayState", "Exploration");
             // Set the eye attack color and property block if the eye renderer is set
             if (m_EyeRendererData.Renderer != null)
             {
@@ -247,7 +257,7 @@ namespace Unity.FPS.AI
         void OnDetectedTarget()
         {
             onDetectedTarget.Invoke();
-
+            inCombat = true;
             alertEvent.Post(this.gameObject);
             // Set the eye default color and property block if the eye renderer is set
             if (m_EyeRendererData.Renderer != null)
@@ -369,6 +379,8 @@ namespace Unity.FPS.AI
             m_EnemyManager.UnregisterEnemy(this);
 
             deathEvent.Post(this.gameObject);
+
+            AkSoundEngine.SetState("GameplayState", "Exploration");
 
             // loot an object
             if (TryDropItem())

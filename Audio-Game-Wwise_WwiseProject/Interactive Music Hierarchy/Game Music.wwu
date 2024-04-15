@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{816219FD-6357-481A-8601-A165561AE7B1}" SchemaVersion="110" RootDocumentID="{9B435351-807B-48F6-9495-72E576F3E6BB}" ParentDocumentID="{9B435351-807B-48F6-9495-72E576F3E6BB}">
+	<InteractiveMusic>
+		<WorkUnit Name="Game Music" ID="{816219FD-6357-481A-8601-A165561AE7B1}" OwnerID="{9B435351-807B-48F6-9495-72E576F3E6BB}" PersistMode="Nested">
+			<ChildrenList>
+				<MusicSwitchContainer Name="Dynamic Music" ID="{2593D23E-6B64-40FB-9B07-27D91AD58BB0}" ShortID="15882723">
+					<PropertyList>
+						<Property Name="ContinuePlay" Type="bool" Value="False"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21D48565-66FF-4FF2-AC6C-F150C5F4865A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E66EE735-4F06-460F-A689-FE8D7ECA3724}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="Combat Theme" ID="{A9759D17-EC28-460D-BD7B-8A555E0D68E8}" ShortID="857479843">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21D48565-66FF-4FF2-AC6C-F150C5F4865A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E66EE735-4F06-460F-A689-FE8D7ECA3724}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="1_ For Better Tomorrow - 120bpm - COMBAT LOOP" ID="{8A1A109A-C335-4DE7-906B-90C8ABA4829B}" ShortID="710983528">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="56972.947845805"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21D48565-66FF-4FF2-AC6C-F150C5F4865A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E66EE735-4F06-460F-A689-FE8D7ECA3724}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="1_ For Better Tomorrow - 120bpm - COMBAT LOOP" ID="{B77B250A-AA96-4BCB-B955-8CD9FFD976B6}" ShortID="485172474">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E66EE735-4F06-460F-A689-FE8D7ECA3724}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="1_ For Better Tomorrow - 120bpm - COMBAT LOOP" ID="{643D5237-B2E5-456D-BF2A-F26CACDC595A}">
+													<Language>SFX</Language>
+													<AudioFile>1. For Better Tomorrow - 120bpm - COMBAT LOOP.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="270003338"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{594AD907-7D0F-459C-8407-2791048FA6A8}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{F3CC7980-6C27-4917-A032-17B0686A7AEA}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="1_ For Better Tomorrow - 120bpm - COMBAT LOOP" ID="{D60B0672-FC3C-4B07-8175-7FA316420FF4}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="56972.947845805"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="1_ For Better Tomorrow - 120bpm - COMBAT LOOP" ID="{643D5237-B2E5-456D-BF2A-F26CACDC595A}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="GameplayState" ID="{81281DC4-3919-4BD7-8F51-8F556AFF6CC9}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Exploration" ID="{B51C2BEF-D13C-4D38-BD07-B80D4E862E17}"/>
+												<CustomState Name="" ID="{48E375F8-2A89-4CC0-BF97-7EBD753186DC}" ShortID="513875293">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Combat" ID="{BADE8906-394A-4DB2-BF9F-A51410B92930}"/>
+												<CustomState Name="" ID="{4F5BF6D5-1333-4AE7-A75C-5FCFA371CE13}" ShortID="257683262"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{65EE4304-C07A-4EE8-8358-53F06D63E4F9}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{2A04DA02-F275-40BE-B7CE-1EA614977FAD}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="56972.947845805"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{60F80DC5-3322-49AC-BB91-5321EA089F49}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{52F91304-AD02-4ECB-93AF-FFCC4DD28A5E}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{ED767336-797B-412C-85D1-DF9DAF4EBEAC}" ShortID="95494564">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{6159680F-52B7-40D3-8F12-C6F0B9F9E99D}" ShortID="405653563">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="1_ For Better Tomorrow - 120bpm - COMBAT LOOP" ID="{8A1A109A-C335-4DE7-906B-90C8ABA4829B}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Exploration Theme" ID="{C0D84865-F78E-4D65-85C4-2DADEF2C04F0}" ShortID="199842246">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21D48565-66FF-4FF2-AC6C-F150C5F4865A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E66EE735-4F06-460F-A689-FE8D7ECA3724}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="1_ For Better Tomorrow - 120bpm - EXPLORATION LOOP" ID="{F3F505E4-7AAC-4B4F-ACBE-F4E53B09EA0C}" ShortID="1000073798">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="65205.8727082917"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21D48565-66FF-4FF2-AC6C-F150C5F4865A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E66EE735-4F06-460F-A689-FE8D7ECA3724}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="1_ For Better Tomorrow - 120bpm - EXPLORATION LOOP" ID="{5DAC6BAF-780D-4786-989E-8320618C2085}" ShortID="978256441">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E66EE735-4F06-460F-A689-FE8D7ECA3724}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="1_ For Better Tomorrow - 120bpm - EXPLORATION LOOP" ID="{7FE0976C-B883-4414-A470-21BC060F2A5A}">
+													<Language>SFX</Language>
+													<AudioFile>1. For Better Tomorrow - 120bpm - EXPLORATION LOOP.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="611497565"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{4F7D36D5-C8BB-424C-A56D-E7848D05BA5E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{BDC80D2A-9DD9-4553-8EEA-BAF651B64561}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="1_ For Better Tomorrow - 120bpm - EXPLORATION LOOP" ID="{DE6D6653-2A84-4257-B22F-0C4AA65CEE3B}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="65027.052154195"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="1_ For Better Tomorrow - 120bpm - EXPLORATION LOOP" ID="{7FE0976C-B883-4414-A470-21BC060F2A5A}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo MusicSyncType="2">
+												<StateGroupRef Name="GameplayState" ID="{81281DC4-3919-4BD7-8F51-8F556AFF6CC9}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Exploration" ID="{B51C2BEF-D13C-4D38-BD07-B80D4E862E17}"/>
+												<CustomState Name="" ID="{46CE3650-E97A-44AA-97D3-5886FE05B287}" ShortID="808295870"/>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Combat" ID="{BADE8906-394A-4DB2-BF9F-A51410B92930}"/>
+												<CustomState Name="" ID="{A64E9665-2F7E-48B0-AC67-CDFA113E5CED}" ShortID="610318781">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-108"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{BC2E9F1F-9D2F-42E5-9E85-F86D61B41CFA}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{E1187B2B-C384-447B-8891-B28EDB011AF5}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="65027.052154195"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{EA82A0FA-A69B-46EC-BC1C-9131F980CBCA}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{A69103B7-E7B9-46CA-85E1-4F297E617AE7}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{27E4AFDA-76FC-43F2-B17E-854A4D697218}" ShortID="364583013">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{80B3A04E-4EDB-489F-82C3-ADA0969E1D03}" ShortID="149488641">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="1_ For Better Tomorrow - 120bpm - EXPLORATION LOOP" ID="{F3F505E4-7AAC-4B4F-ACBE-F4E53B09EA0C}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicSegment Name="1_ For Better Tomorrow - 120bpm - TRANSITION Exp - Com" ID="{811BFF22-FCD9-4500-9EA6-6AB552814363}" ShortID="1023800674">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="11974.3537414966"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21D48565-66FF-4FF2-AC6C-F150C5F4865A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E66EE735-4F06-460F-A689-FE8D7ECA3724}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="1_ For Better Tomorrow - 120bpm - TRANSITION" ID="{FE1F7886-B601-461F-94C6-88E3A59A51CD}" ShortID="278879773">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E66EE735-4F06-460F-A689-FE8D7ECA3724}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="1_ For Better Tomorrow - 120bpm - TRANSITION" ID="{EC70A0A3-15A3-4BDD-9928-7191C95650D6}">
+											<Language>SFX</Language>
+											<AudioFile>1. For Better Tomorrow - 120bpm - TRANSITION.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="402030317"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{47727127-514E-42B8-8D3A-C02DBA0FDFFD}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{24730EBF-8231-43F8-9F3E-BF583C8EF39E}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="1_ For Better Tomorrow - 120bpm - TRANSITION" ID="{6542218D-3EE2-49D8-9B38-E9EE547E41FC}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="11974.3537414966"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="1_ For Better Tomorrow - 120bpm - TRANSITION" ID="{EC70A0A3-15A3-4BDD-9928-7191C95650D6}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{B1DEBEC7-38B2-4830-BB75-F050EE25FD81}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{3AFFD9BB-81D0-4FB7-8752-F83920186048}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="11974.3537414966"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="1_ For Better Tomorrow - 120bpm - TRANSITION Com - Exp" ID="{7A56871F-B1D2-4585-B662-7B75DEDAB6AB}" ShortID="305764689">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="12005.4195011338"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21D48565-66FF-4FF2-AC6C-F150C5F4865A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E66EE735-4F06-460F-A689-FE8D7ECA3724}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="1_ For Better Tomorrow - 120bpm - TRANSITION Com - Exp" ID="{C2092F40-4E72-4EF9-8E7A-88822455A44B}" ShortID="62067816">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E66EE735-4F06-460F-A689-FE8D7ECA3724}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="1_ For Better Tomorrow - 120bpm - TRANSITION Com - Exp" ID="{2A572327-5337-49AF-B8EA-B87DBD63801D}">
+											<Language>SFX</Language>
+											<AudioFile>1. For Better Tomorrow - 120bpm - TRANSITION Com - Exp.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="784325308"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{8FB1848C-6EC6-447D-AADA-F409176F318A}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{3D76CDDB-70D8-420A-89DB-C447E47D7D00}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="1_ For Better Tomorrow - 120bpm - TRANSITION Com - Exp" ID="{5F031344-4F9D-4AF2-9EB8-C8B3E3FA0652}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="12005.4195011338"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="1_ For Better Tomorrow - 120bpm - TRANSITION Com - Exp" ID="{2A572327-5337-49AF-B8EA-B87DBD63801D}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{91AF93B1-9C36-4A82-8FEC-0DFBF3A2214E}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{0C94053C-1F11-4FC3-AE1F-7D798AA326E3}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="12005.4195011338"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{22CD4389-4FD4-4EE3-844A-2525DA3E7457}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{FCA84A7A-1179-4C5F-B659-BAC8BB0C5C53}">
+									<PropertyList>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{6909610C-6C4D-47FF-81E7-92E5EB339371}">
+												<PropertyList>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+										<TransitionFadeIn>
+											<MusicFade Name="Transition Fade-in" ID="{46C83FE1-7585-495C-9BFE-FF4C63B39E33}"/>
+										</TransitionFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{9E85095A-DB73-4F8D-967E-540EFEFCE58C}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Combat Theme" ID="{A9759D17-EC28-460D-BD7B-8A555E0D68E8}" WorkUnitID="{816219FD-6357-481A-8601-A165561AE7B1}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Exploration Theme" ID="{C0D84865-F78E-4D65-85C4-2DADEF2C04F0}" WorkUnitID="{816219FD-6357-481A-8601-A165561AE7B1}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<TransitionObjectRef Name="1_ For Better Tomorrow - 120bpm - TRANSITION Exp - Com" ID="{811BFF22-FCD9-4500-9EA6-6AB552814363}" WorkUnitID="{816219FD-6357-481A-8601-A165561AE7B1}"/>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{A730105D-144B-4257-BF30-17953A755055}">
+												<PropertyList>
+													<Property Name="FadeOffset" Type="Real64" Value="2"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{C085C833-1DC0-478A-8678-0F4EA3E5C0ED}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Exploration Theme" ID="{C0D84865-F78E-4D65-85C4-2DADEF2C04F0}" WorkUnitID="{816219FD-6357-481A-8601-A165561AE7B1}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Combat Theme" ID="{A9759D17-EC28-460D-BD7B-8A555E0D68E8}" WorkUnitID="{816219FD-6357-481A-8601-A165561AE7B1}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<TransitionObjectRef Name="1_ For Better Tomorrow - 120bpm - TRANSITION Com - Exp" ID="{7A56871F-B1D2-4585-B662-7B75DEDAB6AB}" WorkUnitID="{816219FD-6357-481A-8601-A165561AE7B1}"/>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{E157C9D8-868A-400B-8785-B98FDC00081A}">
+												<PropertyList>
+													<Property Name="FadeOffset" Type="Real64" Value="2"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{3676DE23-6DD7-48C3-BFC9-9D9B9DB6F768}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Exploration Theme" ID="{C0D84865-F78E-4D65-85C4-2DADEF2C04F0}" WorkUnitID="{816219FD-6357-481A-8601-A165561AE7B1}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="1_ For Better Tomorrow - 120bpm - TRANSITION Exp - Com" ID="{811BFF22-FCD9-4500-9EA6-6AB552814363}" WorkUnitID="{816219FD-6357-481A-8601-A165561AE7B1}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<TransitionObjectRef Name="1_ For Better Tomorrow - 120bpm - TRANSITION Com - Exp" ID="{7A56871F-B1D2-4585-B662-7B75DEDAB6AB}" WorkUnitID="{816219FD-6357-481A-8601-A165561AE7B1}"/>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{8B3E212B-7DE9-4CF2-804D-75DF725F0620}">
+												<PropertyList>
+													<Property Name="FadeOffset" Type="Real64" Value="2"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{8A2503E1-1664-4A57-B127-C2FE93A20673}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Combat Theme" ID="{A9759D17-EC28-460D-BD7B-8A555E0D68E8}" WorkUnitID="{816219FD-6357-481A-8601-A165561AE7B1}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="1_ For Better Tomorrow - 120bpm - TRANSITION Com - Exp" ID="{7A56871F-B1D2-4585-B662-7B75DEDAB6AB}" WorkUnitID="{816219FD-6357-481A-8601-A165561AE7B1}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<TransitionObjectRef Name="1_ For Better Tomorrow - 120bpm - TRANSITION Exp - Com" ID="{811BFF22-FCD9-4500-9EA6-6AB552814363}" WorkUnitID="{816219FD-6357-481A-8601-A165561AE7B1}"/>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{E5246FA7-4ACF-4B51-A6FD-CD6D45BED71F}">
+												<PropertyList>
+													<Property Name="FadeOffset" Type="Real64" Value="2"/>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+									</TransitionInfo>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ArgumentList>
+						<ArgumentRef Name="GameplayState" ID="{81281DC4-3919-4BD7-8F51-8F556AFF6CC9}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Combat" ID="{BADE8906-394A-4DB2-BF9F-A51410B92930}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="1_ For Better Tomorrow - 120bpm - COMBAT LOOP" ID="{8A1A109A-C335-4DE7-906B-90C8ABA4829B}" WorkUnitID="{816219FD-6357-481A-8601-A165561AE7B1}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Exploration" ID="{B51C2BEF-D13C-4D38-BD07-B80D4E862E17}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="1_ For Better Tomorrow - 120bpm - EXPLORATION LOOP" ID="{F3F505E4-7AAC-4B4F-ACBE-F4E53B09EA0C}" WorkUnitID="{816219FD-6357-481A-8601-A165561AE7B1}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

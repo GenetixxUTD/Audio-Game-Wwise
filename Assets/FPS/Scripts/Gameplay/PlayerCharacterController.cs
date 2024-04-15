@@ -136,7 +136,7 @@ namespace Unity.FPS.Gameplay
         const float k_JumpGroundingPreventionTime = 0.2f;
         const float k_GroundCheckDistanceInAir = 0.07f;
 
-
+        public AK.Wwise.Event levelMusicEvent;
        
 
         void Awake()
@@ -148,6 +148,9 @@ namespace Unity.FPS.Gameplay
 
         void Start()
         {
+            AkSoundEngine.SetState("GameplayState", "Exploration");
+            levelMusicEvent.Post(this.gameObject);
+
             // fetch components on the same gameObject
             m_Controller = GetComponent<CharacterController>();
             DebugUtility.HandleErrorIfNullGetComponent<CharacterController, PlayerCharacterController>(m_Controller,

@@ -16,6 +16,7 @@ namespace AK
         static const AkUniqueID PLAY_LEVELAIRAMIENCEEVENT = 2100791062U;
         static const AkUniqueID PLAY_LEVELFIREEVENT = 2461339184U;
         static const AkUniqueID PLAY_LEVELGASEVENT = 1814839449U;
+        static const AkUniqueID PLAY_LEVELMUSICEVENT = 2755160911U;
         static const AkUniqueID PLAY_MACHINEALERTEVENT = 1039140651U;
         static const AkUniqueID PLAY_MACHINEMOVEMENT = 3566803906U;
         static const AkUniqueID PLAY_MENUBUTTONEVENT = 2472310029U;
@@ -36,6 +37,22 @@ namespace AK
         static const AkUniqueID STOP_PLAYERWEAPONRECHARGEEVENT = 4180412160U;
         static const AkUniqueID STOP_ROAMINGMACHINEEVENTS = 1738958647U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace GAMEPLAYSTATE
+        {
+            static const AkUniqueID GROUP = 778922764U;
+
+            namespace STATE
+            {
+                static const AkUniqueID COMBAT = 2764240573U;
+                static const AkUniqueID EXPLORATION = 2582085496U;
+                static const AkUniqueID NONE = 748895195U;
+            } // namespace STATE
+        } // namespace GAMEPLAYSTATE
+
+    } // namespace STATES
 
     namespace SWITCHES
     {

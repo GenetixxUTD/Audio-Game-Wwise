@@ -11,6 +11,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2461339184	Play_LevelFireEvent			\Default Work Unit\Play_LevelFireEvent	
 	2472310029	Play_MenuButtonEvent			\Default Work Unit\Play_MenuButtonEvent	
 	2509040845	Play_MenuScreenshotEvent			\Default Work Unit\Play_MenuScreenshotEvent	
+	2755160911	Play_LevelMusicEvent			\Default Work Unit\Play_LevelMusicEvent	
 	2794388823	Play_PlayerCollectableEvent			\Default Work Unit\Play_PlayerCollectableEvent	
 	2976510024	Play_PlayerWeaponDepletedEvent			\Default Work Unit\Play_PlayerWeaponDepletedEvent	
 	3155158054	Play_PlayerWeaponRechargeEvent			\Default Work Unit\Play_PlayerWeaponRechargeEvent	
@@ -29,6 +30,18 @@ Switch	ID	Name	Switch Group			Notes
 	803837735	Sand	FootstepsSwitch			
 	2473969246	Metal	FootstepsSwitch			
 
+State Group	ID	Name			Wwise Object Path	Notes
+	778922764	GameplayState			\Default Work Unit\GameplayState	
+
+State	ID	Name	State Group			Notes
+	748895195	None	GameplayState			
+	2582085496	Exploration	GameplayState			
+	2764240573	Combat	GameplayState			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	513875293	Exploration	GameplayState	\Interactive Music Hierarchy\Default Work Unit\Game Music\Dynamic Music\Combat Theme\1_ For Better Tomorrow - 120bpm - COMBAT LOOP		
+	610318781	Combat	GameplayState	\Interactive Music Hierarchy\Default Work Unit\Game Music\Dynamic Music\Exploration Theme\1_ For Better Tomorrow - 120bpm - EXPLORATION LOOP		
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	3199966932	RocketPitchRTPC			\Default Work Unit\RocketPitchRTPC	
 
@@ -38,7 +51,9 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	114848322	mgsalert-giannigamefreak	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\mgsalert-giannigamefreak_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\mgsalert-giannigamefreak		318860
 	142852571	sand footstep 2	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\sand footsteps - Krotos Audio\sand footstep 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\footsteps\sand footsteps - Krotos Audio\sand footstep 2		131568
 	182189801	halo-infinite-shield-depleted-sound	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\halo-infinite-shield-recharge-sound_21C317C3.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\halo-infinite-shield-depleted-sound		416688
+	270003338	1_ For Better Tomorrow - 120bpm - COMBAT LOOP	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\1. For Better Tomorrow - 120bpm - COMBAT LOOP_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game Music\Dynamic Music\Combat Theme\1_ For Better Tomorrow - 120bpm - COMBAT LOOP\1_ For Better Tomorrow - 120bpm - COMBAT LOOP		10050124
 	361438317	button-124476-universfield-pixabay	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\button-124476-universfield-pixabay_654B91E7.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\button-124476-universfield-pixabay		117600
+	402030317	1_ For Better Tomorrow - 120bpm - TRANSITION	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\1. For Better Tomorrow - 120bpm - TRANSITION_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game Music\Dynamic Music\1_ For Better Tomorrow - 120bpm - TRANSITION Exp - Com\1_ For Better Tomorrow - 120bpm - TRANSITION		2112372
 	405495200	metal footstep 2	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\metal footsteps - Hush Angel\metal footstep 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\footsteps\metal footsteps - Hush Angel\metal footstep 2		43064
 	436270674	airidle5	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\airidle5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment Recordings\Air Ambience\airidle5		1918048
 	436311998	zapsplat_explosion_detonate_blast_designed_002_89754	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\zapsplat_explosion_detonate_blast_designed_002_89754_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\Turret Death\zapsplat_explosion_detonate_blast_designed_002_89754		900484
@@ -46,6 +61,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	502066736	large-rocket-engine-86240-pixabay	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\large-rocket-engine-86240-pixabay_661ED83E.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\large-rocket-engine-86240-pixabay		612088
 	502185773	sand footstep 4	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\sand footsteps - Krotos Audio\sand footstep 4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\footsteps\sand footsteps - Krotos Audio\sand footstep 4		108792
 	602326104	metal footstep 4	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\metal footsteps - Hush Angel\metal footstep 4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\footsteps\metal footsteps - Hush Angel\metal footstep 4		43696
+	611497565	1_ For Better Tomorrow - 120bpm - EXPLORATION LOOP	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\1. For Better Tomorrow - 120bpm - EXPLORATION LOOP_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game Music\Dynamic Music\Exploration Theme\1_ For Better Tomorrow - 120bpm - EXPLORATION LOOP\1_ For Better Tomorrow - 120bpm - EXPLORATION LOOP		11470868
 	636117648	metal footstep 5	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\metal footsteps - Hush Angel\metal footstep 5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\footsteps\metal footsteps - Hush Angel\metal footstep 5		49384
 	637810265	explosion-42132-pixapit	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\explosion-42132-pixapit_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\Roamer Death\explosion-42132-pixapit		331872
 	670311929	sand footstep 5	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\sand footsteps - Krotos Audio\sand footstep 5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\footsteps\sand footsteps - Krotos Audio\sand footstep 5		114748
@@ -55,6 +71,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	779577029	RAWlaser-zap-90575-pixabay	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\ImportedAudio\RAWlaser-zap-90575-pixabay_CED32EB2.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\RAWlaser-zap-90575-pixabay		90840
 	781107164	sand footstep 3	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\sand footsteps - Krotos Audio\sand footstep 3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\footsteps\sand footsteps - Krotos Audio\sand footstep 3		105816
 	781963465	success_bell-6776-pixabay	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\success_bell-6776-pixabay_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\success_bell-6776-pixabay		389472
+	784325308	1_ For Better Tomorrow - 120bpm - TRANSITION Com - Exp	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\1. For Better Tomorrow - 120bpm - TRANSITION Com - Exp_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game Music\Dynamic Music\1_ For Better Tomorrow - 120bpm - TRANSITION Com - Exp\1_ For Better Tomorrow - 120bpm - TRANSITION Com - Exp		2117852
 	821053783	metal footstep 1	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\metal footsteps - Hush Angel\metal footstep 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\footsteps\metal footsteps - Hush Angel\metal footstep 1		40540
 	835719834	sand footstep 1	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\sand footsteps - Krotos Audio\sand footstep 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\footsteps\sand footsteps - Krotos Audio\sand footstep 1		115916
 	874491271	paperscrunch_RAW	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\paperscrunch_RAW_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment Recordings\paperscrunch_RAW		1890144
