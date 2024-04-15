@@ -800,6 +800,58 @@
 								<ActiveSource Name="duct-tape-3-183995-floraphonic-pixabay" ID="{CC0EAF3C-8CF1-48DF-B0C2-80A1CF105D6A}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="halo-infinite-shield-depleted-sound" ID="{33DD5E8D-93D4-4712-9041-9E111D38E1B5}" ShortID="179182192">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21D48565-66FF-4FF2-AC6C-F150C5F4865A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E66EE735-4F06-460F-A689-FE8D7ECA3724}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="halo-infinite-shield-recharge-sound" ID="{A0F619F2-3B28-45A2-96AB-8BFBAE380CE2}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.16976"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>halo-infinite-shield-recharge-sound.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="182189801"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="halo-infinite-shield-recharge-sound" ID="{A0F619F2-3B28-45A2-96AB-8BFBAE380CE2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="halo-infinite-shield-recharge-sound" ID="{FAEDCF40-3838-42F2-8E46-F524EE22EC8D}" ShortID="222373315">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{21D48565-66FF-4FF2-AC6C-F150C5F4865A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E66EE735-4F06-460F-A689-FE8D7ECA3724}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="halo-infinite-shield-recharge-sound" ID="{6663C0F1-586E-4D76-8C0B-8534B3EC0F95}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="2.21050666666667"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>halo-infinite-shield-recharge-sound.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="24415505"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="halo-infinite-shield-recharge-sound" ID="{6663C0F1-586E-4D76-8C0B-8534B3EC0F95}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Environment Recordings" ID="{4D339839-2F0B-42EF-B353-F857D98EEFA5}" ShortID="640347163">

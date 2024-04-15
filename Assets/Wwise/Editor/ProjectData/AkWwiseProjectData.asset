@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: f4b671e4529d304798f1985917140ce5
     GuidInternal: 
-    m_lastTime: -8584884701494775808
+    m_lastTime: -8584884628274775808
     List:
     - name: Main
       guid: fdf66c1abf433d4ab57deaebc3e11f14
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 414441dba3e52d46949d8953efa62f98
     GuidInternal: 
-    m_lastTime: -8584884701494775808
+    m_lastTime: -8584884628274775808
     List:
     - name: Play_LevelAirAmienceEvent
       guid: ef6ef48e76b60e4c9097e59adca2b27a
@@ -300,6 +300,40 @@ MonoBehaviour:
       maxAttenuation: 100
       maxDuration: 1.0921036
       minDuration: 0.81815326
+    - name: Play_PlayerWeaponDepletedEvent
+      guid: 2a5aa6097186df41acb942dac7583f2c
+      id: 2976510024
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 414441dba3e52d46949d8953efa62f98
+      - ElementName: Play_PlayerWeaponDepletedEvent
+        ObjectType: 3
+        guid: 2a5aa6097186df41acb942dac7583f2c
+      Path: Events\Default Work Unit\Play_PlayerWeaponDepletedEvent
+      maxAttenuation: 0
+      maxDuration: 2.16976
+      minDuration: 2.16976
+    - name: Play_PlayerWeaponRechargeEvent
+      guid: 4a822976d4cae2499ecb1a4b74b83cb4
+      id: 3155158054
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 414441dba3e52d46949d8953efa62f98
+      - ElementName: Play_PlayerWeaponRechargeEvent
+        ObjectType: 3
+        guid: 4a822976d4cae2499ecb1a4b74b83cb4
+      Path: Events\Default Work Unit\Play_PlayerWeaponRechargeEvent
+      maxAttenuation: 0
+      maxDuration: 2.3734934
+      minDuration: 2.3734934
     - name: Play_RoamerDeathEvent
       guid: 73862c024f4dff4e90e4a13857bd13c5
       id: 510078518
@@ -348,6 +382,23 @@ MonoBehaviour:
         ObjectType: 3
         guid: c2bce91a441ff640b7019e0b446d2370
       Path: Events\Default Work Unit\Stop_PlayerRocketEvent
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_PlayerWeaponRechargeEvent
+      guid: 3c960ca1c71d7440ba07fb6532c87591
+      id: 4180412160
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 414441dba3e52d46949d8953efa62f98
+      - ElementName: Stop_PlayerWeaponRechargeEvent
+        ObjectType: 3
+        guid: 3c960ca1c71d7440ba07fb6532c87591
+      Path: Events\Default Work Unit\Stop_PlayerWeaponRechargeEvent
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0

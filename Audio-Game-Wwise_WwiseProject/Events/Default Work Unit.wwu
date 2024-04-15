@@ -196,6 +196,42 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_PlayerWeaponDepletedEvent" ID="{09A65A2A-8671-41DF-ACB9-42DAC7583F2C}">
+					<ChildrenList>
+						<Action Name="" ID="{4484B5EE-EA94-45D7-A7C1-D9382AD47EAF}" ShortID="232216379">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="halo-infinite-shield-depleted-sound" ID="{33DD5E8D-93D4-4712-9041-9E111D38E1B5}" WorkUnitID="{1B55DE8B-2CE8-4A18-ABE3-645A666F02C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_PlayerWeaponRechargeEvent" ID="{7629824A-CAD4-49E2-9ECB-1A4B74B83CB4}">
+					<ChildrenList>
+						<Action Name="" ID="{34ED86C4-E8C5-43B5-902A-9B16E79D91C1}" ShortID="928253715">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="halo-infinite-shield-recharge-sound" ID="{FAEDCF40-3838-42F2-8E46-F524EE22EC8D}" WorkUnitID="{1B55DE8B-2CE8-4A18-ABE3-645A666F02C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_PlayerWeaponRechargeEvent" ID="{A10C963C-1DC7-4074-BA07-FB6532C87591}">
+					<ChildrenList>
+						<Action Name="" ID="{2781D61D-9325-45D6-B71D-6A5514AE5922}" ShortID="214127226">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="halo-infinite-shield-recharge-sound" ID="{FAEDCF40-3838-42F2-8E46-F524EE22EC8D}" WorkUnitID="{1B55DE8B-2CE8-4A18-ABE3-645A666F02C9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

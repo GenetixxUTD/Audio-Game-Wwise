@@ -128,6 +128,12 @@ namespace Unity.FPS.Game
         public float LastChargeTriggerTimestamp { get; private set; }
         Vector3 m_LastMuzzlePosition;
 
+        public AK.Wwise.Event rechargeStartEvent;
+        public AK.Wwise.Event rechargeEndEvent;
+        public AK.Wwise.Event weaponDepletedEvent;
+
+        private bool weaponDepleted;
+
         public GameObject Owner { get; set; }
         public GameObject SourcePrefab { get; set; }
         public bool IsCharging { get; private set; }
@@ -155,6 +161,7 @@ namespace Unity.FPS.Game
             m_CurrentAmmo = MaxAmmo;
             m_CarriedPhysicalBullets = HasPhysicalBullets ? ClipSize : 0;
             m_LastMuzzlePosition = WeaponMuzzle.position;
+            weaponDepleted = false;
 
             if (HasPhysicalBullets)
             {
@@ -219,6 +226,16 @@ namespace Unity.FPS.Game
 
         void UpdateAmmo()
         {
+            if(m_CurrentAmmo == 0 && !weaponDepleted)
+            {
+                weaponDepletedEvent.Post(this.gameObject);
+                weaponDepleted = true;
+            }
+            
+            if(weaponDepleted && m_CurrentAmmo != 0)
+            {
+                weaponDepleted = false;
+            }
             if (AutomaticReload && m_LastTimeShot + AmmoReloadDelay < Time.time && m_CurrentAmmo < MaxAmmo && !IsCharging)
             {
                 // reloads weapon over time
@@ -226,11 +243,15 @@ namespace Unity.FPS.Game
 
                 // limits ammo to max value
                 m_CurrentAmmo = Mathf.Clamp(m_CurrentAmmo, 0, MaxAmmo);
-
+                if (!IsCooling)
+                {
+                    rechargeStartEvent.Post(this.gameObject);
+                }
                 IsCooling = true;
             }
             else
             {
+                rechargeEndEvent.Post(this.gameObject);
                 IsCooling = false;
             }
 

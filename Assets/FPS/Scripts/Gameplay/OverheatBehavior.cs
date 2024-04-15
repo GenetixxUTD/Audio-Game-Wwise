@@ -19,6 +19,8 @@ namespace Unity.FPS.Gameplay
             }
         }
 
+        
+
         [Header("Visual")] [Tooltip("The VFX to scale the spawn rate based on the ammo ratio")]
         public ParticleSystem SteamVfx;
 
@@ -94,12 +96,10 @@ namespace Unity.FPS.Gameplay
                     && m_Weapon.IsWeaponActive
                     && m_Weapon.IsCooling)
                 {
-                    m_AudioSource.Play();
                 }
                 else if (m_AudioSource.isPlaying
                          && (currentAmmoRatio == 1 || !m_Weapon.IsWeaponActive || !m_Weapon.IsCooling))
                 {
-                    m_AudioSource.Stop();
                     return;
                 }
 

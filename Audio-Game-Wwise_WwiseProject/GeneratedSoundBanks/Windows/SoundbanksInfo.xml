@@ -33,10 +33,14 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{0F2886F8-C9F2-0CEA-496A-82ECCDFFABFB}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{13C2E3E8-B334-233A-7D11-AC5B33E6FE89}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="24415505" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>halo-infinite-shield-recharge-sound.wav</ShortName>
+					<CachePath>SFX/halo-infinite-shield-recharge-sound_E5DE0260.wem</CachePath>
+				</File>
 				<File Id="40068453" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>ImportedAudio\RAWcharged-laser-7125-pixabay.wav</ShortName>
 					<CachePath>SFX/ImportedAudio/RAWcharged-laser-7125-pixabay_5319FC00.wem</CachePath>
@@ -48,6 +52,10 @@
 				<File Id="142852571" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>sand footsteps - Krotos Audio\sand footstep 2.wav</ShortName>
 					<CachePath>SFX/sand footsteps - Krotos Audio/sand footstep 2_10C4C929.wem</CachePath>
+				</File>
+				<File Id="182189801" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>halo-infinite-shield-recharge-sound.wav</ShortName>
+					<CachePath>SFX/halo-infinite-shield-recharge-sound_21C317C3.wem</CachePath>
 				</File>
 				<File Id="405495200" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>metal footsteps - Hush Angel\metal footstep 2.wav</ShortName>
@@ -223,6 +231,16 @@
 						<MediaRef Id="779577029"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2976510024" Name="Play_PlayerWeaponDepletedEvent" DurationType="OneShot" DurationMin="2.16976" DurationMax="2.16976">
+					<MediaRefs>
+						<MediaRef Id="182189801"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3155158054" Name="Play_PlayerWeaponRechargeEvent" DurationType="OneShot" DurationMin="2.3734934" DurationMax="2.3734934">
+					<MediaRefs>
+						<MediaRef Id="24415505"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="510078518" Name="Play_RoamerDeathEvent" MaxAttenuation="75" DurationType="OneShot" DurationMin="3.2558308" DurationMax="5.6739607">
 					<MediaRefs>
 						<MediaRef Id="485869477"/>
@@ -236,6 +254,7 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="3361080125" Name="Stop_PlayerRocketEvent" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="4180412160" Name="Stop_PlayerWeaponRechargeEvent" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="1738958647" Name="Stop_RoamingMachineEvents" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 			<GameParameters>
@@ -251,5 +270,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{62D9A2E0-D334-BAD1-8EA3-93FB18A6D814}</FileHash>
+	<FileHash>{D4B28369-03E6-8193-2DD0-2A38FC0C421B}</FileHash>
 </SoundBanksInfo>

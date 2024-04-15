@@ -9,11 +9,14 @@ Event	ID	Name			Wwise Object Path	Notes
 	1830303642	Play_PlayerFootstepsEvent			\Default Work Unit\Play_PlayerFootstepsEvent	
 	2100791062	Play_LevelAirAmienceEvent			\Default Work Unit\Play_LevelAirAmienceEvent	
 	2461339184	Play_LevelFireEvent			\Default Work Unit\Play_LevelFireEvent	
+	2976510024	Play_PlayerWeaponDepletedEvent			\Default Work Unit\Play_PlayerWeaponDepletedEvent	
+	3155158054	Play_PlayerWeaponRechargeEvent			\Default Work Unit\Play_PlayerWeaponRechargeEvent	
 	3263331757	Play_PlayerHealEvent			\Default Work Unit\Play_PlayerHealEvent	
 	3361080125	Stop_PlayerRocketEvent			\Default Work Unit\Stop_PlayerRocketEvent	
 	3498406285	Play_PlayerLauncherShot			\Default Work Unit\Play_PlayerLauncherShot	
 	3566803906	Play_MachineMovement			\Default Work Unit\Play_MachineMovement	
 	3923112352	Play_PlayerPistolShot			\Default Work Unit\Play_PlayerPistolShot	
+	4180412160	Stop_PlayerWeaponRechargeEvent			\Default Work Unit\Stop_PlayerWeaponRechargeEvent	
 	4221610031	Play_PlayerRocketEvent			\Default Work Unit\Play_PlayerRocketEvent	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
@@ -27,9 +30,11 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	3199966932	RocketPitchRTPC			\Default Work Unit\RocketPitchRTPC	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	24415505	halo-infinite-shield-recharge-sound	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\halo-infinite-shield-recharge-sound_E5DE0260.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\halo-infinite-shield-recharge-sound		455808
 	40068453	RAWcharged-laser-shot7125-pixabay	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\ImportedAudio\RAWcharged-laser-7125-pixabay_5319FC00.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\RAWcharged-laser-shot7125-pixabay		345520
 	114848322	mgsalert-giannigamefreak	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\mgsalert-giannigamefreak_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\mgsalert-giannigamefreak		318860
 	142852571	sand footstep 2	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\sand footsteps - Krotos Audio\sand footstep 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\footsteps\sand footsteps - Krotos Audio\sand footstep 2		131568
+	182189801	halo-infinite-shield-depleted-sound	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\halo-infinite-shield-recharge-sound_21C317C3.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\halo-infinite-shield-depleted-sound		416688
 	405495200	metal footstep 2	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\metal footsteps - Hush Angel\metal footstep 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\footsteps\metal footsteps - Hush Angel\metal footstep 2		43064
 	436270674	airidle5	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\airidle5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment Recordings\Air Ambience\airidle5		1918048
 	436311998	zapsplat_explosion_detonate_blast_designed_002_89754	F:\Uni Work\IMAT3004 - Audio for Games\Github\Audio-Game-Wwise\Audio-Game-Wwise_WwiseProject\.cache\Windows\SFX\zapsplat_explosion_detonate_blast_designed_002_89754_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ImportedAudio\Turret Death\zapsplat_explosion_detonate_blast_designed_002_89754		900484
